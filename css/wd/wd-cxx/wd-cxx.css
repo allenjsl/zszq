@@ -1,0 +1,32 @@
+﻿@charset 'utf-8';
+
+.wapper .line {
+height:55px;font-size:14px;padding:5px 9px 4px 13px;position:relative;border-bottom:1px solid #d1d1d1;
+}
+.wapper .ccc {
+    color: #ccc !important;
+}
+.line .info-type {
+    color:#40c2ff;
+}
+.line .timer {
+position:absolute;right:9px;bottom:6px;color:#a4a4a4;height: 16px;font-size:12px;font-family: Arial;
+}
+.dialog-remove {
+width:215px;box-shadow:0px 0px 5px #000;
+}
+.dialog-remove .content {
+font-size:17px;height:65px;line-height:65px;border-bottom:1px solid #d1d1d1;text-align:center;
+}
+.dialog-remove .btn {
+font-size:0px;height:41px;line-height:41px;white-space:nowrap;
+}
+.btn span {
+display:inline-block;vertical-align:top;font-size:15px;color:#00aeff;width:49%;text-align:center;
+}
+.btn .cancel {
+border-right:1px solid #d1d1d1;
+}
+.btn span:active {
+font-weight:bold;
+}

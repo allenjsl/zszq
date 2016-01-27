@@ -1,0 +1,29 @@
+﻿@charset 'utf-8';
+.wapper .prompt {
+    width:80%;text-align:center;margin:0 auto;
+   height:147px;border-bottom:1px solid #e6e6e6;padding-top: 23px;
+}
+.wapper .t-prompt {
+    width:80%;margin:0 auto;font-size:14px; padding-top:25px;
+}
+.prompt p {
+     font-size:17px;color:#00aeff;margin-top:8px;font-weight: bold;
+}
+.t-prompt .one {
+color:#333333;font-size:14px;font-weight: bold;
+}
+.t-prompt .two {
+color:#8c8c8c;font-size:14px;margin-top:25px;
+}
+.wapper .footer {
+    position:relative;width:85%;margin:30px auto 0 auto;height:50px;
+}
+.footer span {
+position:absolute;width:130px;height:40px;font-size:17px;text-align:center;border:1px solid #45C3FE;background:#40c2ff;color:#fff;line-height:40px;
+}
+.footer .b-one {
+    left:0;
+}
+.footer .b-two {
+    right:0;
+}

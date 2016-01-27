@@ -1,0 +1,101 @@
+﻿@charset 'utf-8';
+
+.byw-xjt {
+    background: url('/zsjy/img/wd/wd-byw/byw-xjt/byw-xjt.png') no-repeat;
+    background-size: 65px 23px;
+}
+
+.wapper {
+    padding: 12px 10px 30px 10px;
+}
+
+    .wapper .protocol-list {
+        border: 1px solid #dfdfdf;
+        border-radius: 6px;
+    }
+
+.protocol-list .desc {
+    height: 43px;
+    line-height: 43px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    padding-left: 8px;
+    width: 303px;
+    margin: 0 auto;
+}
+
+.protocol-list .p-list {
+    width: 303px;
+    margin: 0 auto;
+}
+
+.p-list .line {
+    font-size: 14px;
+    color: #4aa8ff;
+    text-align: left;
+    height: 30px;
+    position: relative;
+    left: 30%;
+}
+
+.wapper .checked {
+    height: 55px;
+    line-height: 55px;
+    padding-left: 25%;
+    font-family: '微软雅黑';
+}
+
+.checked .c-ico {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-position: -24px -4px;
+    position: relative;
+    top: 4px;
+    left: -6px;
+}
+
+.checked .c-checked {
+    background-position: -3px -4px !important;
+}
+
+.checked .word {
+    font-weight: bold;
+}
+
+.wapper .btn {
+    width: 70%;
+    margin: 30px auto 0 auto;
+    background: #00aeff;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #d2d1d1;
+}
+/*弹出层*/
+.dialog {
+width:247px;
+}
+    .dialog .operate {
+    height:27px;position:relative;
+    }
+.operate .o-ico {
+position:absolute;width:19px; height:19px;background-position:-43px -4px;right:8px;bottom:0;
+}
+.dialog .p-title {
+font-size:14px;text-align:center;
+}
+.dialog .content {
+padding:9px 0 18px 0;
+}
+.content p {
+height:21px;line-height:21px;text-align:center;
+}
+.dialog-success {
+    width:173px;
+    height:89px;
+    line-height:89px;font-size:14px;text-align:center;font-family:'微软雅黑';
+}

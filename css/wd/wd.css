@@ -1,0 +1,247 @@
+﻿@charset 'utf-8';
+/*未登录登陆按钮*/
+.wapper .not-login {
+    height: 81px;
+    padding: 26px 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+/*顶部提示*/
+.wapper .tips {
+    padding:6px 18px;background:#f0f7fa;color:#000;font-family:'微软雅黑';border-bottom: 1px solid #dfdfdf;font-size:12px;position: relative;
+}
+.tips .kaitong {
+    position:relative;left:15px;color:#00a0eb;
+}
+/*顶部提示*/
+.not-login .login-btn {
+    display: block;
+    margin: 0 auto;
+    width: 135px;
+    height: 31px;
+    border: 1px solid #40c2ff;
+    border-radius: 4px;
+    font-size: 17px;
+    font-family: '微软雅黑';
+    text-align: center;
+    line-height: 31px;
+}
+
+.not-login .desc {
+    display: block;
+    margin-top: 9px;
+    font-size: 12px;
+    text-align: center;
+}
+/*未登录登陆按钮*/
+/*登陆后显示用户姓名等*/
+.wapper .has-login {
+    height:159px;padding:7px; border-bottom: 1px solid #dfdfdf;
+}
+.has-login .welcome {
+    white-space:nowrap;
+    font-size:0;position:relative;width:286px;margin:0 auto;
+}
+.welcome .u-name {
+font-size:14px;font-family:'微软雅黑';
+}
+.welcome .desc {
+font-size:12px;font-family:'微软雅黑';margin-left:6px;
+}
+.welcome .u-ico {
+    position:absolute;
+    width:14px;height:14px;
+    right:10px;top:4px;
+   background-position: -31px -30px
+}
+.has-login .u-info {
+    width:286px;margin:0 auto;white-space:nowrap;font-size:0;height:122px;padding-top: 4px;
+}
+.u-info .i-left {
+width:59%;
+}
+/*圆环部分*/
+.i-left .bg-circle {
+width:115px;height:115px;background:#e1e1e5;border-radius:115px;margin:0 auto;padding-top:7.5px;
+}
+.bg-circle .circle-color {
+width:100px; height:100px; background:#ffd4b6;border-radius:100px;margin:0 auto;padding-top:5px;position:relative;
+}
+.circle-color .circle-gray {
+    width:90px; height:90px; background:#e1e1e5;border-radius:90px;margin:0 auto;padding-top:7px;position:relative;z-index:999;
+}
+.circle-gray .circle-content {
+    color:#00a0e8;padding-top: 3px;
+    width:75px; height:75px; background:#fff;border-radius:75px;margin:0 auto;
+}
+.circle-content .circle-num {
+text-align:center;height: 41px;padding-left: 6px;
+}
+.circle-num .c-num {
+    font-size:36px;font-family:'Arial';
+}
+.circle-num .c-sym {
+    font-size:12px;
+}
+.circle-content .cricle-desc {
+font-size:12px;text-align:center;
+}
+/*圆环部分*/
+.u-info .i-right {
+width:40%;
+}
+.u-info .i-item {
+    display:inline-block;
+height:122px;vertical-align:top
+}
+.i-right .i-line {
+height:39px;
+}
+.fields .i-ico {
+display:inline-block;width:11px;height:11px;border-radius:10px;position:relative;top:2px;
+}
+.fields .zsz {
+    background:#f0dba9;
+}
+.fields .kyje {
+    background:#99d3ed;
+}
+.fields .kqye {
+    background:#99dcd9;
+}
+.fields .i-name {
+font-size:12px;color:#a9a9a9;margin-left:6px;
+}
+.i-line .value {
+padding-left:15px;
+}
+.value .val {
+font-size:15px;font-weight:bold;font-family:'Arial';
+}
+.value .unit {
+font-size:7px;font-family:'Arial';color:#b4b4b4;margin-left:3px;
+}
+/*登陆后显示用户姓名等*/
+.wd-png {
+    background: url('/zsjy/img/wd/wd.png') no-repeat;
+    background-size: 135px 70px;
+}
+
+.wapper .business-module {
+    margin-top: 15px;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+}
+
+.business-module .business-item {
+    height: 45px;
+    line-height: 45px;
+}
+
+.business-item .no-border-bottom {
+    border-bottom: none !important;
+}
+
+.business-item .ico-item {
+    float: left;
+    width: 45px;
+    height: 45px;
+    line-height: 55px;
+    text-align: center;
+    position: relative;
+}
+
+.ico-item .ico {
+    width: 24px;
+    height: 21px;
+}
+
+.ico-item .new-info {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    border-radius: 10px;
+}
+
+.ico-item .i-have {
+    background: #ff4d4d;
+}
+/*查消息*/
+.ico-item .cxx {
+    background-position: -1px 0px;
+}
+/*办业务*/
+.ico-item .byw {
+    background-position: -1px -24px;
+}
+/*玩游戏*/
+.ico-item .wyx {
+    background-position: -1px -45px;
+}
+/*赚金币*/
+.ico-item .zjb {
+    background-position: -25px -4px;
+}
+
+.business-item .desc {
+    position: relative;
+    margin-left: 45px;
+    height: 45px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.desc .module-name {
+    font-family: '微软雅黑';
+    font-size: 17px;
+    color: #434343;
+}
+
+.desc .module-desc {
+    position: absolute;
+    right: 31px;
+    font-size: 12px;
+    color: #969696;
+}
+
+.desc .right-ico {
+    position: absolute;
+    right: 15px;
+    top: 16px;
+    height: 14px;
+    width: 9px;
+    background-position: -56px -4px;
+}
+
+#bingtu {
+    position:absolute;
+    top:-5px;left:-5px;z-index:900;
+}
+
+
+ .hold1 {
+        width:100px;height:100px;background:#ff6900;
+        position:absolute; clip:rect(0px,100px,100px,50px);
+         border-radius: 50px;top:0;left:0;
+        }
+        .pie1 {
+            width: 100px;
+            height: 100px;
+            background: #ffd4b6;
+            border-radius: 100px;
+            position: absolute;
+            clip: rect(0px,100px,100px,50px);
+        }
+        .hold2 {
+        width:100px;height:100px;background:#ff6900;
+         border-radius: 50px;
+        position:absolute; clip:rect(0px,50px,100px,0px);top:0;left:0;
+        }
+        .pie2 {
+            width: 100px;
+            height: 100px;
+            background: #ffd4b6;
+            border-radius: 50px;
+            position: absolute;
+            clip:rect(0px,50px,100px,0px);
+        }

@@ -1,0 +1,131 @@
+﻿@charset 'utf-8';
+body {
+    overflow:hidden;
+}
+.wapper {
+    overflow:hidden;
+}
+.wapper .head-title {
+    height: 40px;
+    line-height: 40px;
+    background: #f3f7f9;
+    margin-left: 15px;
+    position: relative;
+}
+
+.head-title span {
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #535353;
+    position: absolute;
+}
+
+.head-title .title-one {
+}
+
+.head-title .title-two {
+    left: 23%;
+}
+
+.head-title .title-three {
+    left: 45%;
+}
+
+.head-title .title-four {
+    left: 71%;
+}
+
+.head-title .title-five {
+    left: 88%;
+}
+
+.wapper .list-item {
+    overflow-y:scroll;font-size:14px; font-family:Arial;
+}
+
+.list-item .list {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.list-item .last {
+    border-bottom: none !important;
+}
+
+.list .item {
+    position: absolute;
+    height: 41px;
+    line-height: 30px;
+}
+
+.list .item-one {
+}
+
+.item-one .time {
+    color: #969696;
+}
+
+.item-one .name {
+}
+
+.item p {
+    height: 16px;
+}
+
+.list .item-two {
+    left: 23%;
+    line-height: 41px;
+}
+
+.list .item-three {
+    left: 45%;
+}
+
+.list .item-four {
+    left: 71%;
+}
+
+.list .item-five {
+    color: #4cc6ff;
+    left: 88%;
+    line-height: 41px;
+}
+/*弹出层BEGIN*/
+.dialig {
+width:215px;border-radius:4px;padding-top: 10px;
+}
+.dialig .title {
+    font-size: 20px;
+    font-family: '微软雅黑';
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+}
+
+.d-list .fields, .d-list .value {
+    font-size: 16px;
+    font-family: '微软雅黑';
+}
+
+.dialig .d-list {
+    text-align: left;
+    width: 61%;
+    margin: 0 auto;
+}
+.dialig .btn {
+    margin-top:16px;
+height:43px;line-height:42px;border-top: 1px solid #ddd;font-size:0;white-space:nowrap;}
+.btn span{
+    display:inline-block;
+    width:49%;text-align:center;
+    font-size:18px;color:#00aeff;font-family: '微软雅黑';
+}.btn span:active{
+   font-weight:bold;
+}
+.btn .btn-left {
+    border-right: 1px solid #ddd;
+}
+/*弹出层END*/

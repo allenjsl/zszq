@@ -1,0 +1,19 @@
+﻿@charset 'utf-8';
+.wapper .module {
+height:106px;padding:0 19px;border-bottom: 1px solid #dfdfdf;position:relative;
+}
+.module .m-name {
+    height:45px;line-height:45px;color:#00aeff;font-size:17px;
+}
+.module .desc {
+    font-size:14px;font-family:'微软雅黑';
+}
+.m-name .hot {
+color:#ff3c3c;font-family:'Arial';position:relative;left:5px;top:-7px;
+}
+.m-name .sur-date {
+font-size:12px;font-family:'Arial';color:#000;position:relative;top:-3px;
+}
+.sur-date .time {
+color:#ff9860;font-family:'微软雅黑';font-size:14px;margin-left:4px;
+}

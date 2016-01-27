@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>用户名注册</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/login.css" media="all"/>
+    
+</head>
+
+<body id="wrapper">
+
+<div>
+<div class="login_form">
+    <ul>
+        <li><s class="yonghumin_icon"></s><input id="username" type="text" class="u-input" placeholder="请设置用户名"></li>
+        <li><s class="mima_icon"></s><input id="password" type="password" class="u-input" placeholder="请设置密码"></li>
+        <li><s class="mima_icon"></s><input id="confirmpw" type="password" class="u-input" placeholder="请确认密码"></li>
+    </ul>
+    
+</div>
+
+<div class="cent padd15"><input id="register" type="button" class="submitBtn" value="完成"></div>
+
+</div>
+
+
+</body>
+<script src="lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/enow/register');
+</script>
+</html>

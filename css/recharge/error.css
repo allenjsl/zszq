@@ -1,0 +1,22 @@
+﻿@charset 'utf-8';
+.wapper .prompt {
+    height:392px;
+    text-align:center;
+    padding-top:128px;
+}
+.prompt p {
+     font-size:17px;color:#00aeff;margin-top:8px;font-weight: bold;
+}
+.wapper .footer {
+    position:relative;width:85%;margin:0 auto 0 auto;height:50px;
+}
+.footer span {
+position:absolute;width:130px;height:40px;font-size:17px;text-align:center;border:1px solid #45C3FE;background:#40c2ff;color:#fff;line-height:40px;
+}
+.footer .b-one {
+    left:0;
+}
+.footer .b-two {
+    right:0;
+}
+

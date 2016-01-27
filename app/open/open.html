@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+
+</body>
+    <script>
+
+        //手机页面跳转
+        window.changeURL = function (str) {
+            var app = window.navigator.appVersion.toLocaleLowerCase();
+            if (app.indexOf("windows phone") > 0) {
+                window.external.notify(str);
+            } else if (app.indexOf("iphone") > 0) {
+                window.location.href = 'http://action:1964/?url=' + encodeURIComponent('http://121.15.129.252/weixin');
+            } else if (app.indexOf("android") > 0) {
+                window.MyWebView.onJsOverrideUrlLoading(str);
+            } else {
+                window.location.href = str;
+            }
+        }
+        //测试
+        var url = 'http://action:1964/?url=' + encodeURIComponent('http://browseropen:url=http://121.15.129.252:10003/weixin/index.html#!/account/openType.html?from=000000');
+        //var url = 'http://action:1964/?url=' + encodeURIComponent('http://121.15.129.252/weixin/#!/account/openType.html?from=zs_jyapp');
+        //生产
+        //var url = 'http://action:1964/?url=' + encodeURIComponent('https://shjr-kh.zszq.com/weixin/index.html#!/account/openType.html?from=zs_xiaolu');
+        changeURL(url);
+        //changeURL('http://action:1964/?url=' + encodeURIComponent('https://shjr-kh.zszq.com/weixin/index.html#!/account/openType.html?from=zs_xxx'));
+    </script>
+</html>

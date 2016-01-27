@@ -1,0 +1,63 @@
+﻿@charset 'utf-8';
+.wapper {
+padding:12px;
+}
+    .wapper .g-info {
+    position:relative;font-family:'微软雅黑';font-size:14px;height:14px;
+    }
+.g-info span {
+    position:absolute;top:0;
+}
+.g-info .left {
+    left:0;
+
+}
+.g-info .center {
+    left:40%;
+
+}
+.g-info .right {
+    width:21px; height:21px;color:#78d4ff;border:1px solid #78d4ff;border-radius:21px;right:0;text-align:center;line-height:21px;
+
+}
+.wapper .timer {
+text-align:center;font-family:'黑体';font-size:0px;white-space:nowrap;margin-top:45px;
+}
+.timer span {
+font-size:17px;margin-right:3px;
+}
+.timer .t-timer {
+    display:inline-block;width:16px;height:24px;background:#f4f4f4;box-shadow:0px 0px 3px #000;text-align:center;line-height:24px;
+}
+.wapper .operate {
+    margin-top:35px;
+    position:relative;height:92px;
+}
+.operate .left {
+    position:absolute;
+    width:92px;
+    height:92px;
+    border-radius:92px;
+    background:#ff4a42;
+    left:12px;top:0;
+}
+.operate .center {
+    font-size:27px;position:absolute;left:46%;top:24px;
+}
+.operate .right {
+    position:absolute;
+    width:92px;
+    height:92px;
+    border-radius:92px;
+    background:#00ce05;
+    right:12px;top:0;
+}
+.operate .type {
+    color:#fff;font-size:50px;position:absolute;left:22px;top:-3px;
+}
+.operate .percent {
+    color:#fff;font-size:17px;position:absolute;left:31px;top:60px;
+}
+.operate .gray {
+background:#ababab !important;
+}

@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>持仓</title>
+    <link href="../../../css/base/base.css" rel="stylesheet" />
+    <link href="../../../css/lib/slide/slide.css" rel="stylesheet" />
+    <link href="../../../css/jy/jy-chicang/jy-chicang.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="refreshbtn j_refresh" style=""></div>
+    <div class="wapper bgfff">
+        <div class="holding bgfff  j_acc">
+            <div class="move-item">
+                <!--294-->
+                <div class="adBox">
+                    <div class="banner" id="J_header">
+                        <div id="d-slide" class="swipe">
+                            <div class="swipe-wrap">
+                                <figure>
+                                    <div class="slide-item">
+                                        <div class="currency">
+                                            <i class="jy-chicang i-currency i-china"></i>
+                                            <span>人民币账户CNY</span>
+                                        </div>
+                                        <div class="info">
+                                            <div class="i-item">
+                                                <div class="i-one s-item">
+                                                    <div class="fields">总资产</div>
+                                                    <div class="value j_rmbzzc">--</div>
+                                                </div>
+                                                <div class="i-two s-item">
+                                                    <div class="fields">股票市值</div>
+                                                    <div class="value j_rmbzsz">--</div>
+                                                </div>
+                                                <div class="i-three s-item no-right">
+                                                    <div class="fields">总盈亏</div>
+                                                    <div class="value  j_rmbzyk">--</div>
+                                                </div>
+                                            </div>
+                                            <div class="i-item">
+                                                <div class="i-one s-item no-bottom">
+                                                    <div class="fields">可取</div>
+                                                    <div class="value j_rmbkq">--</div>
+                                                </div>
+                                                <div class="i-two s-item no-bottom">
+                                                    <div class="fields">可用</div>
+                                                    <div class="value j_rmbky">--</div>
+                                                </div>
+                                                <div class="i-three s-item no-right no-bottom">
+                                                    <div class="fields" style="display: none">当日参考盈亏</div>
+                                                    <div class="value  j_rmbdryk" style="display: none">--</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <div class="slide-item">
+                                        <div class="currency">
+                                            <i class="jy-chicang i-currency i-usa"></i>
+                                            <span>美元账户USD</span>
+                                        </div>
+                                        <div class="info">
+                                            <div class="i-item">
+                                                <div class="i-one s-item">
+                                                    <div class="fields">总资产</div>
+                                                    <div class="value j_myzzc">--</div>
+                                                </div>
+                                                <div class="i-two s-item">
+                                                    <div class="fields">股票市值</div>
+                                                    <div class="value j_myzsz">--</div>
+                                                </div>
+                                                <div class="i-three s-item no-right">
+                                                    <div class="fields">总盈亏</div>
+                                                    <div class="value  j_myzyk">--</div>
+                                                </div>
+                                            </div>
+                                            <div class="i-item">
+                                                <div class="i-one s-item no-bottom">
+                                                    <div class="fields">可取</div>
+                                                    <div class="value j_mykq">--</div>
+                                                </div>
+                                                <div class="i-two s-item no-bottom">
+                                                    <div class="fields">可用</div>
+                                                    <div class="value j_myky">--</div>
+                                                </div>
+                                                <div class="i-three s-item no-right no-bottom">
+                                                    <div class="fields">当日参考盈亏</div>
+                                                    <div class="value  j_mydryk">--</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <div class="slide-item">
+                                        <div class="currency">
+                                            <i class="jy-chicang i-currency i-hk"></i>
+                                            <span>港币账户HK</span>
+                                        </div>
+                                        <div class="info">
+                                            <div class="i-item">
+                                                <div class="i-one s-item">
+                                                    <div class="fields">总资产</div>
+                                                    <div class="value j_gbzzc">--</div>
+                                                </div>
+                                                <div class="i-two s-item">
+                                                    <div class="fields">股票市值</div>
+                                                    <div class="value j_gbzsz">--</div>
+                                                </div>
+                                                <div class="i-three s-item no-right">
+                                                    <div class="fields">总盈亏</div>
+                                                    <div class="value  j_gbzyk">--</div>
+                                                </div>
+                                            </div>
+                                            <div class="i-item">
+                                                <div class="i-one s-item no-bottom">
+                                                    <div class="fields">可取</div>
+                                                    <div class="value j_gbkq">--</div>
+                                                </div>
+                                                <div class="i-two s-item no-bottom">
+                                                    <div class="fields">可用</div>
+                                                    <div class="value j_gbky">--</div>
+                                                </div>
+                                                <div class="i-three s-item no-right no-bottom">
+                                                    <div class="fields">当日参考盈亏</div>
+                                                    <div class="value  j_gbdryk">--</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <nav class="nav">
+                                <ul id="J_position">
+                                    <li class="on"></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="head-title bgfff">
+            <span class="title-one">市值</span>
+            <span class="title-two">盈亏</span>
+            <span class="title-three">持仓/可用</span>
+            <span class="title-four">成本/现价</span>
+
+        </div>
+        <div class="b-line"></div>
+        <div id="wrapper" style="position: relative;" class="bgfff">
+            <div class="list-item  j_cclist">
+              <!--  <div class="list prolit">
+                    <div class="item item-one">
+                        <p class="name">珍珠港</p>
+                        <p class="time">13:34:34</p>
+                    </div>
+                    <div class="item item-two">
+                        <p class="name">423.44</p>
+                        <p class="time">5.01%</p>
+                    </div>
+                    <div class="item item-three">
+                        <p>1400</p>
+                        <p>1400</p>
+                    </div>
+                    <div class="item item-four">
+                        <p>8.629</p>
+                        <p>8.9263</p>
+                    </div>
+                </div>
+               
+                <div class="list loss last">
+                    <div class="item item-one">
+                        <p class="name">珍珠港</p>
+                        <p class="time">13:34:34</p>
+                    </div>
+                    <div class="item item-two">
+                        <p class="name">423.44</p>
+                        <p class="time">5.01%</p>
+                    </div>
+                    <div class="item item-three">
+                        <p>1400</p>
+                        <p>1400</p>
+                    </div>
+                    <div class="item item-four">
+                        <p>8.629</p>
+                        <p>8.9263</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- <div class="o-type">
+        <span>买入</span>
+        <span>卖出</span>
+        <span>行情</span>
+    </div>-->
+     <div class="operate j_operate hidden" >
+                    <div class="o-item o-one">
+                        <div class="o-item-item" data-type="buy">
+                            <span class="o-ico o-buy"></span>
+                            <span class="o-word">买入
+                            </span>
+                            
+                        </div>
+                        <span class="r-line"></span>
+                    </div>
+                    <div class="o-item o-two">
+                        <div class="o-item-item" data-type="sale">
+                        <span class="o-ico o-sale"></span>
+                        <span class="o-word">卖出
+                        </span>
+                            
+                            </div>
+                        <span class="r-line"></span>
+                    </div>
+                    <div class="o-item o-three">
+                        <div class="o-item-item" data-type="hq">
+                        <span class="o-ico o-hq"></span>
+                        <span class="o-word">看行情
+                        </span>
+                            </div>
+                    </div>
+                </div>
+</body>
+<script src="../../../lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/jy/jy-chicang/jy-chicang');
+</script>
+</html>

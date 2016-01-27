@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>我的</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/user.css" media="all"/>
+    
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <!--<script src="js/enow/highcharts.js" type="text/javascript"></script>-->
+    <script src="js/enow/echarts-all.js" type="text/javascript"></script>
+</head>
+
+<body id="wrapper">
+
+<div>
+<div class="user_head_login" id="notlogin">
+
+    <div class="cent">
+        <div class="user_t"></div>
+    </div>
+    <div class="cent mt20"><a href="javascript:;" id="login" class="submitBtn">登 录</a></div>
+
+</div>
+<div class="user_head" id="normallogin" style="display: none;">
+
+    <div class="cent"><span class="user_touxiang radius"><img src="image/head_no.png" class="touxiang"/></span></div>
+    <div class="cent font18 mt10 yonghuming"></div>
+    <div class="cent font13 mt10">你还没有证券账户哦！<a href="javascript:;" class="blue_txt" id="kaihu">万2.5开户></a></div>
+    <div class="cent mt10"><div id="hushen" data-type="charts"></div></div>
+
+</div>
+<div class="user_head" id="accountlogin" style="display: none;">
+
+    <div class="cent"><span class="user_touxiang radius"><img src="image/head_no.png" class="touxiang"/></span></div>
+    <div class="cent font18 mt10 xingming"></div>
+    <div class="cent font13 mt10">你最近<i class="fontred">1个月</i>在小鹿金融排名<i class="fontred" id="rank"></i>位</div>
+    <div class="cent mt10"><div id="jingzhi" data-type="charts"></div></div>
+
+</div>
+
+<div class="u_item_list">
+        <ul>
+            <li class="R_jiantou zqzh"><i class="yyt_icon01"></i>证券账户</li>
+            <li class="R_jiantou zhfx"><i class="yyt_icon02"></i>账户分析</li>
+            <li class="R_jiantou wdjp"><i class="yyt_icon03"></i>我的奖品</li>
+            <li class="R_jiantou wdxx"><i class="yyt_icon04"></i>我的消息</li>
+            <li class="R_jiantou wsyy"><i class="yyt_icon05"></i>网上营业厅</li>
+        </ul>
+</div>
+</div>
+<div class="foot">
+   <div class="foot_box">
+      <ul class="clearfix">
+         <li class="box" id="shezhi"><a href="javascript:;"><s></s>设置</a></li>
+         <li class="box" id="tuichu" style="display: none;"><a href="javascript:;"><s></s>退出</a></li>
+      </ul>
+   </div>
+</div>
+
+<div class="user-mask" style="display:none;">
+    
+    <div class="user-mask-bot">
+        <div class="update_touxiang">
+                <ul>
+                    <!--<li id="upload">上 传</li>-->
+                    <li id="snap">拍 照</li>
+                    <li id="picture">从手机相册选择</li>
+                    <li id="cancel">取 消</li>
+                </ul>
+        </div>
+    </div>
+
+</div>
+</body>
+<script type="text/javascript">
+    $(function() {
+        var winwid = $(window).width();
+        $('div[data-type=charts]').css("width", winwid - 25 + "px");
+        $('div[data-type=charts]').css("height",  "200px");
+    })
+</script>
+<script src="lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/enow/user');
+</script>
+</html>

@@ -1,0 +1,20 @@
+﻿body{ background:#f4f4f4;}
+
+.jy_head{ background:#fff; padding:15px 10px 15px 150px;overflow:hidden;border-bottom:#ddd solid 1px; height:82px;position:relative;}
+
+.jy_touxiang{ border:#e75f37 solid 1px;width:80px; height:80px; overflow:hidden; position:absolute; left:46px;}
+.jy_touxiang img{width:80px; height:80px;}
+
+.tel_icon,.add_icon{padding-left:26px; line-height:27px;}
+.tel_icon{ background:url(../image/tel_icon.png) no-repeat 3px center; background-size:12px 23px;}
+.add_icon{ background:url(../image/add_icon.png) no-repeat left center; background-size:18px 18px}
+
+.jy_box{ border-top:#ddd solid 1px; border-bottom:#ddd solid 1px; background:#fff; padding:10px; overflow:hidden;}
+
+.putong,.xinyong{ padding-left:36px; height:39px; line-height:39px; font-size:16px; position:relative; }
+.putong{ background:url(../image/putong_icon.png) no-repeat 4px center; border-bottom:#ddd solid 1px;background-size:26px 22px;}
+.xinyong{ background:url(../image/xinyong_icon.png) no-repeat 4px center;background-size:26px 22px;}
+
+.putong .right_txt,.xinyong .right_txt{position:absolute; right:10px; top:0; display:inline-block; font-size:14px; color:#828282;}
+.jy_box p{padding-left:40px; line-height:30px;font-size:15px;}
+.jy_box p span{ color:#828282; font-size:14px;padding-right:10px; display:inline-block; float:right;}

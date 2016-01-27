@@ -1,0 +1,135 @@
+﻿@charset 'utf-8';
+body {
+    overflow:hidden;
+}
+.wapper {
+    background: #fff;overflow:hidden;
+}
+
+    .wapper .datetime {
+        height:35px;padding:8px 34px;
+
+    }
+.datetime .pos {
+    position:relative;height:20px;
+}
+.datetime .date {
+width:97px;
+height:20px;
+border:1px solid #d1d1d1;
+text-align:center;
+}
+.datetime .arrow {
+position:absolute;
+width:30px;height:4px;
+margin:auto;left:0;right:0;top:0;bottom:0;
+background:url('/zsjy/img/jy/jy-chaxun/jy-jgd/jy-jgd.png') no-repeat;
+background-size:30px 4px;
+}
+.datetime .enddate {
+position:absolute;right:0;
+}
+.datetime .beggin {
+position:absolute;left:0;
+}
+
+.wapper .head-title {
+    height: 40px;
+    line-height: 40px;
+    background: #f3f7f9;
+    position: relative;
+}
+
+.head-title span {
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #535353;
+    position: absolute;
+}
+
+.head-title .title-one {
+      left: 3%;
+}
+
+.head-title .title-two {
+    left: 23%;
+}
+
+.head-title .title-three {
+    left: 44%;
+}
+
+.head-title .title-four {
+    left: 60%;
+}
+
+.head-title .title-five {
+    left: 80%;width: 56px;
+text-align: right;
+}
+
+.wapper .list-item {
+    overflow-y:scroll;font-size:14px; font-family:Arial;
+}
+
+.list-item .list {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+}
+
+.list-item .last {
+    border-bottom: none !important;
+}
+
+.list .item {
+    position: absolute;
+    height: 41px;
+    line-height: 30px;
+}
+.item-one .time {
+    color: #969696;
+}
+
+.item-one .name {
+}
+
+.item p {
+    height: 16px;
+}
+.list .item-one {
+     left: 3%;
+    line-height: 41px;
+}
+.list .size {
+font-size:10px !important;
+}
+.list .item-two {
+    width: 68px;
+text-align: right;
+    left: 22%;
+}
+
+.list .item-three {
+    left: 44%;line-height: 45px;width: 41px;
+text-align: right;
+}
+
+.list .item-four {
+    left: 60%;line-height: 45px;width: 40px;
+text-align: right;
+}
+
+.list .item-five {
+    left: 80%;
+    line-height: 45px;width: 59px;
+text-align: right;
+margin-left: -12px;
+}
+.list .buy {
+    color:#ff9936;
+}
+.list .sale {
+    color:#3ac0ff;
+}

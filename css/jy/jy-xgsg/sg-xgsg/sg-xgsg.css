@@ -1,0 +1,156 @@
+﻿@charset 'utf-8';
+.wapper .head-title {
+    height: 40px;
+    line-height: 40px;
+    background: #f3f7f9;
+    margin-left: 15px;
+    position: relative;
+}
+
+.head-title span {
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #535353;
+    position: absolute;
+}
+
+.head-title .title-one {
+    left: 3px;
+}
+
+.head-title .title-two {
+    left: 40%;
+}
+
+.head-title .title-three {
+    left: 73%;
+}
+
+
+.wapper .list-item {
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+.list-item .list {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+    margin-left: 15px;
+    font-size:14px;
+}
+
+.list-item .last {
+    border-bottom: none !important;
+}
+
+.list .item {
+    position: absolute;
+    height: 41px;
+    font-family: Arial;
+    line-height: 24px;
+}
+
+.list .item-one {
+    left: 3px;
+}
+
+.item-one .time {
+    color: #969696;
+}
+
+.item-one .name {
+    font-size: 14px;
+}
+
+.item p {
+    height: 16px;
+}
+
+.list .item-two {
+    left: 40%;
+    line-height: 41px;
+}
+
+.list .item-three {
+    left: 73%;line-height:41px;font-family:Arial;
+}
+
+.item .t-r {
+text-align:right;
+}
+.list .item-five {
+    color: #4cc6ff;
+    font-size: 12px;
+    left: 88%;
+    line-height: 41px;
+}
+
+.wapper .sg-buy {
+height:259px;padding:22px 0;font-size:17px; font-family:'微软雅黑';
+}
+.xgsg-bg {
+    background:url('/zsjy/img/jy/jy-xgsg/xgsg.png') no-repeat;
+    background-size:35px 25px;
+}
+.sg-buy .stock-select {
+width:208px;height:38px;margin:0 auto;border:1px solid #d1d1d1;position:relative;
+}
+.stock-select .s-ico {
+   position:absolute; width:32px;height:36px;background:#fff;right:0;top:0;
+}
+.s-ico .selet-ico {
+    position:absolute;width:15px; height:10px;background-position:-18px -3px;top:12px; left:8px;
+}
+.stock-select .select {
+    width:100%;
+    height:36px;line-height: 36px;
+background:#fff;-webkit-appearance:none;appearance:none;
+}
+.sg-buy .price {
+    margin-top:14px;line-height:38px;text-align:center;
+}
+.stock-select .inputprice {
+    width:144px;border:none;height:36px;text-align: center;
+}
+.sg-buy .i-input {
+     margin-top:14px;text-align:center;position:relative;
+}
+.i-input div {
+    position:absolute;
+width:32px;height:38px;background:#e55126;
+}
+.i-input .plus {
+left:-1px;top:-1px;
+}
+.i-input .reduce {
+right:-1px;top:-1px;
+}
+.i-input .quato {
+color: #fff;
+font-size: 12px;
+position: absolute;
+left: 0;
+top: 16px;
+width: 32px;
+text-align: center; 
+}
+.i-input .v-ico {
+position:absolute;width:10px;height:10px;left: 13px;
+top: 7px;
+}
+.plus .p-ico {
+    background-position:-4px -16px;
+}
+.reduce .r-ico {
+    background-position:-4px -3px;
+}
+.sg-buy .kyzj {
+    width:208px;height:38px;margin:0 auto;line-height:38px;
+}
+.kyzj .fields {
+color:#7c7c7c;
+}
+.sg-buy .sg-btn {
+background:#e55126;border-radius:4px;color:#fff;border:none;line-height:38px;text-align:center;
+}

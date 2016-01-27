@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,target-densitydpi = medium-dpi">
+
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>交易</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/jiaoyi_login.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/progress.css" media="all"/>
+    
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="js/enow/jquery-asPieProgress.min.js" type="text/javascript"></script>
+    
+    <style>
+    .tips {
+        padding:6px 18px;background:#f0f7fa;color:#000;font-family:'微软雅黑';border-bottom: 1px solid #dfdfdf;font-size:12px;position: relative;
+    }
+    .tips .kaitong {
+        position:relative;left:15px;color:#00a0eb;
+    }
+    </style>
+    
+</head>
+
+<body id="wrapper">
+<div>
+<div class="jiaoyi_bg">
+    <div class="tips hidden j_tips" style="display: none;">
+            您好,80%的中山证券用户已经开通现金通，为闲置资金自动理财!<span class="kaitong">一键开通&nbsp;&nbsp;>></span>
+        </div>
+    <!--<div class="msg" style="display: block;">
+       <ul>
+           <li><a href="">80%是的人都开通了现金通，一键开通》</a></li>
+           <li><a href="">80%是的人都开通了现金通，一键开通》2</a></li>
+           <li><a href="">80%是的人都开通了现金通，一键开通》3</a></li>
+       </ul>
+        
+    </div>-->
+
+    <div class="jiaoyi_top" style="display: none;height:132px;">
+    
+        <div class="L" id="renderer">
+            <!--<canvas id="canvas" width="102" height="102"></canvas>-->
+            <div class="pie_progress" role="progressbar" data-goal="0" data-barcolor="#e55126" data-barsize="7">
+                <div class="pie_progress__number">0%</div>
+                <div class="pie_progress__label">持仓</div>
+            </div>
+        </div>
+        
+        <div class="R">
+            <ul>
+                <li>
+                    <p>总资产(元)</p>
+                    <p id="total"></p>
+                </li>
+                <li>
+                    <p>股票市值(元)</p>
+                    <p id="gupiao"></p>
+                </li>
+                <li>
+                    <p>可用金额(元)</p>
+                    <p id="keyong"></p>
+                </li>
+                <li>
+                    <p>可取金额(元)</p>
+                    <p id="kequ"></p>
+                </li>
+            
+            </ul>
+        </div>
+    
+    </div>
+
+    
+    <div class="jy_menu">
+           <ul>
+              <li>
+                    <div class="activity_mask"></div>
+                    <div class="nav_buy j_buy">
+                           <p>买入</p>
+                    </div>
+              </li>
+              
+              <li>
+                    <div class="activity_mask"></div>
+                    <div class="nav_sell j_sale">
+                           <p>卖出</p>
+                    </div>
+              </li>
+
+              <li>
+                    <div class="activity_mask"></div>
+                    <div class="nav_cd j_chedan">
+                           <p>撤单</p>
+                    </div>
+              </li>
+
+              <li>
+                    <div class="activity_mask"></div>
+                    <div class="nav_cc j_chicang">
+                           <p>持仓</p>
+                    </div>
+              </li>
+
+              <li>
+                    <div class="activity_mask"></div>
+                    <div class="nav_cx j_chaxun">
+                           <p>查询</p>
+                    </div>
+              </li>
+
+              <li>
+                    <div class="activity_mask"></div>
+                    <div class="nav_zz j_yzzz">
+                           <p>银证转账</p>
+                    </div>
+              </li>
+
+           </ul>
+        </div>
+
+
+</div>
+
+
+<div class="jy_item_list">
+        <ul>
+            <li class="R_jiantou j_rzrq"><span class="jy_txt">利用杠杆做多、做空</span><i class="jy_icon01"></i>融资融券</li>
+            <li class="R_jiantou j_xjt"><span class="jy_txt">闲置资金自动理财</span><i class="jy_icon02"></i>现金通</li>
+
+            <li class="R_jiantou j_dxg"><span class="jy_txt">你打新，我买单</span><i class="jy_icon03"></i>打新股</li>
+
+            <li class="R_jiantou j_lcsc"><span class="jy_txt">最适合你的理财产品</span><i class="jy_icon04"></i>理财商城</li>
+
+        </ul>
+</div>
+</div>
+</body>
+<script>
+$(function () {
+//	$('.L').circleProgress({
+//			value: 0.99
+//		}).on('circle-animation-progress', function(event, progress) {
+//			$(this).find('strong').html(parseInt(100 * progress) + '<i>%</i>');
+//		});
+//	$('.L').circleProgress({
+//			startAngle: -Math.PI / 4 * 1,
+//			value: 0.8,
+//			lineCap: 'round',
+//			fill: { gradient: ['#e74c3c', '#ddd'] }
+//		})
+	$('.pie_progress').asPieProgress({
+			namespace: 'pie_progress'
+		});
+})
+</script>
+<script src="lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/enow/jiaoyi_login');
+</script>
+</html>

@@ -1,0 +1,137 @@
+﻿
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>账户分析</title>
+	
+
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+
+    <script src="js/enow/echarts-all.js" type="text/javascript"></script>
+    
+    
+    <!--日历-->
+    <link href="css/rili/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/rili/app.css" rel="stylesheet" type="text/css" />
+    <link href="css/rili/mui.listpicker.css" rel="stylesheet" type="text/css" />
+    <link href="css/rili/mui.dtpicker.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/enow/rili/mui.min.js" type="text/javascript"></script>
+
+    <script src="js/enow/rili/mui.listpicker.js" type="text/javascript"></script>
+
+    <script src="js/enow/rili/mui.dtpicker.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/basic.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/tuxing.css" media="all"/>
+    
+</head>
+
+<body>
+
+<div class="tuxing">
+
+   <div class="tuxing_box">
+      <h3><s class="tx_icon01"></s>个人画像</h3>
+      <div class="tuxing_img" style="margin-top:40px; margin-bottom:25px;">
+           <div class="huaxiang_head radius">
+              <div class="huaxiang_head2 radius">
+                  <img id="touxiang" class="radius touxiang" src="image/head_img.png" class="radius" />
+                  <div class="tag1" style="display:none;"></div>
+                  <div class="tag2" style="display:none;"></div>
+                  <div class="tag3" style="display:none;"></div>
+                  <div class="tag4" style="display:none;"></div>
+                  <div class="tag5" style="display:none;"></div>
+                  <div class="tag6" style="display:none;"></div>
+              </div>
+           </div>
+      
+     </div>
+   </div>
+   
+   <div id="tubiao" style="display:none;">
+   <div id="pz" class="tuxing_box">
+      <h3><s class="tx_icon02"></s>资产配置</h3>
+      <div id="zcpz" data-type="charts" class="tuxing_img">
+
+      </div>
+   </div>
+   
+
+   <div id="hy" class="tuxing_box">
+      <h3><s class="tx_icon03"></s>持仓行业</h3>
+      
+      <div data-type="charts" id="hangye" class="tuxing_img">
+      
+      </div>
+      
+   </div>
+
+   <div id="pd" class="tuxing_box">
+      <h3><s class="tx_icon04"></s>交易频度</h3>
+      <div class="tuxing_img">
+          <span class="tuxing_input"><input  id="PDStartTime" type="text" data-class="rili" data-options='{"type":"month"}'></span>
+          <span><img src="image/jt.png" style="vertical-align:bottom;"></span>
+          <span class="tuxing_input"><input type="text" id="PDEndTime" data-class="rili" data-options='{"type":"month"}'></span>
+      </div>
+      <div data-type="charts" id="jypd" class="tuxing_img">
+
+      </div>
+   </div>
+   
+   <div id="zz" class="tuxing_box">
+      <h3><s class="tx_icon05"></s>资产周转率</h3>
+      <div class="tuxing_img">
+          <span class="tuxing_input"><input  id="ZZStartTime" type="text" data-class="rili" data-options='{"type":"month"}'></span>
+          <span><img src="image/jt.png" style="vertical-align:bottom;"></span>
+          <span class="tuxing_input"><input type="text" id="ZZEndTime" data-class="rili" data-options='{"type":"month"}'></span>
+      </div>
+      <div data-type="charts" id="zzl" class="tuxing_img">
+
+      </div>
+   </div>
+
+   <div id="zs" class="tuxing_box">
+      <h3><s class="tx_icon06"></s>净值走势（对比沪深300）</h3>
+      <div class="tuxing_img">
+          <span class="tuxing_input"><input  id="JZStartTime" type="text" data-class="rili" data-options='{"type":"date"}'></span>
+          <span><img src="image/jt.png" style="vertical-align:bottom;"></span>
+          <span class="tuxing_input"><input type="text" id="JZEndTime" data-class="rili" data-options='{"type":"date"}'></span>
+      </div>
+      <div  data-type="charts" id="zoushi"  class="tuxing_img">
+
+      </div>
+   </div>
+   </div>
+
+</div>
+
+</body>
+     
+
+     
+<script src="lib/seajs/sea.js"></script>
+
+<script>
+    seajs.use('/zsjy/js/enow/tuxing');
+</script>
+
+
+<script type="text/javascript">
+    $(function() {
+        var winwid = $(window).width();
+        $('div[data-type=charts]').css("width", winwid - 20 + "px");
+        $('div[data-type=charts]').css("height", winwid + "px");
+        $("#zcpz").css("height", winwid - 50 + "px");
+        $("#jypd").css("height", winwid + 20 + "px");
+    })
+</script>
+</html>

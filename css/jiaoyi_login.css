@@ -1,0 +1,68 @@
+body{ background:#f4f4f4;}
+
+
+.jiaoyi_bg{ background:url(../image/jiaoyi_bg.jpg) no-repeat;width:100%; background-size:cover; overflow:hidden;}
+
+
+.jiaoyi_bg{ background:url(../image/jiaoyi_bg.jpg) no-repeat;width:100%; background-size:cover; overflow:hidden;}
+
+.jiaoyi_top{overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box; padding:15px 10px 15px 117px; position:relative;}
+.jiaoyi_top .L{width:102px; height:102px; overflow:hidden; position:absolute; left:10px; top:15px;}
+.jiaoyi_top .R{ padding:5px 0; overflow:hidden;}
+.jiaoyi_top .R li{ padding-left:12px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;width:50%; background:url(../image/g_icon.png) no-repeat left 9px; font-size:14px;background-size:8px 5px; float:left;}
+.jiaoyi_top .R li:nth-child(1){ background:url(../image/y_icon.png) no-repeat left 9px;background-size:8px 5px;}
+.jiaoyi_top .R li p:last-of-type{ font-family:"Helvetica Neue LT Pro"; letter-spacing:1px;}
+.jiaoyi_top .R li:nth-child(3),.jiaoyi_top .R li:nth-child(4){margin-top:8px;}
+
+
+.activity_mask {
+	width:100%; 
+	height:100%; 
+	background:#fff; 
+	opacity:.5; 
+	position:absolute; 
+	top:0; 
+	left:0;
+}
+
+.jy_menu{width:100%;}
+.jy_menu li{font-size:16px; color:#444;float:left; height:86px; text-align:center; position:relative;width:33%;}
+
+.jy_menu li:nth-of-type(3n){width:34%;}
+
+.jy_menu li:nth-child(1) .activity_mask,.jy_menu li:nth-child(3) .activity_mask,.jy_menu li:nth-child(5) .activity_mask{ opacity:0.5;}
+.jy_menu li:nth-child(2) .activity_mask{ opacity:0.7;}
+.jy_menu li:nth-child(4) .activity_mask,.jy_menu li:nth-child(6) .activity_mask{ opacity:0.65;}
+
+
+.nav_buy,.nav_sell,.nav_cd,.nav_cc,.nav_cx,.nav_zz{height:36px;padding-top:50px; position:relative;}
+.nav_buy:before,.nav_sell:before,.nav_cd:before,.nav_cc:before,.nav_cx:before,.nav_zz:before{ background:url(../image/jiaoyi_menu.png) no-repeat;content:""; position:absolute;left:50%; background-size:86px 122px;}
+
+.nav_buy:before{ background-position:-2px -4px;margin-left:-17px;top:9px; width:33px; height:31px;}
+.nav_sell:before{ background-position:-3px -46px;margin-left:-16px;top:9px; width:32px; height:31px;}
+.nav_cd:before{ background-position:-6px -83px;margin-left:-15px;top:6px; width:30px; height:37px;}
+.nav_cc:before{ background-position:-44px -2px;margin-left:-16px;top:8px; width:32px; height:33px;}
+.nav_cx:before{ background-position:-45px -43px;margin-left:-16px;top:8px; width:32px; height:34px;}
+.nav_zz:before{ background-position:-45px -86px;margin-left:-19px;top:12px;width:38px; height:25px;}
+
+
+
+.jy_item_list{font-size:16px;background:#f4f4f4;}
+.jy_item_list li{ padding-left:50px;display:block; height:44px; line-height:44px; border-bottom:#ddd solid 1px; position:relative; padding-right:30px;}
+.jy_item_list li i{background:url(../image/jiaoyi_icon.png) no-repeat; display:inline-block; position:absolute; left:20px; top:14px; background-size:32px 89px;}
+
+.jy_item_list li i.jy_icon01{ background-position:-1px 0;width:25px; height:18px; left:16px;}
+.jy_item_list li i.jy_icon02{ background-position:-8px -19px;width:18px; height:17px;}
+.jy_item_list li i.jy_icon03{ background-position:-8px -44px;width:16px; height:17px;}
+.jy_item_list li i.jy_icon04{ background-position:-8px -67px;width:18px; height:18px;}
+
+
+.jy_item_list .jy_txt{ position:absolute; right:30px; top:0; display:inline-block; color:#959595; font-size:14px;}
+
+
+.jy_item_list li em{width:6px; height:6px; background:#e55126; border:#fff 2px solid; display:inline-block; position:absolute; right:-6px; top:-4px;}
+
+
+.msg{width:100%; height:21px; line-height:21px; font-size:14px; text-align:center;padding-top:10px; overflow:hidden;}
+.msg li{width:90%; margin:0 auto; height:21px;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.msg li a{color:#444;}

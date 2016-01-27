@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>普通登录</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/login.css" media="all"/>
+</head>
+
+<body id="wrapper">
+
+<div>
+<div style="position:relative;">
+<div class="login_form">
+    <ul>
+        <li class="B_jiantou" id="toggle"><s class="yonghumin_icon"></s><input id="username" type="text" class="u-input" placeholder="请输入用户名/资金账号"></li>
+        <li class="pwd"><s class="mima_icon"></s><input id="password" type="password" class="u-input" placeholder="请输入登录密码/交易密码"></li>
+        <li style="padding-right:85px;"><s class="duanxin_icon"></s><input id="checkcode" type="tel" class="u-input" placeholder="请输入验证码">
+            <span class="yzm">
+                <canvas width="65" height="39" id="myCanvas"></canvas>
+            </span>
+        </li>
+    </ul>
+    
+</div>
+    <div class="zhanghao_box box" style="display:none;" id="zhanghao">
+       <ul class="radiu4">
+             <li class="on">755100214158<i class="radius"></i></li>
+        </ul>
+    </div>
+</div>
+<div class="padd15 font16">
+   <label class="xuanze" id="jizhuzhanghao"><s class="fxk"></s>记住账号</label><!-----勾选样式fxk_on------->
+   <a href="javascript:;" class="color_82 floatR" id="find">忘记密码？</a>
+</div>
+
+<div class="cent padd15"><input id="login" type="button" class="submitBtn" value="登 录"></div>
+
+
+<div class="reg_bot">
+    <a href="javascript:;" class="reg_bg" id="register">用户名注册</a>
+</div>
+</div>
+</body>
+<script src="lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/enow/login');
+</script>
+</html>

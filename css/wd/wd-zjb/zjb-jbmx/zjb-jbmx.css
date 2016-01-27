@@ -1,0 +1,25 @@
+﻿@charset 'utf-8';
+.wapper {
+
+}
+.wapper .line {
+height:44px;padding:6px 0 7px 15px;position:relative;   border-bottom: 1px solid #dfdfdf;
+}
+.line .o-type {
+font-size:14px;font-family:'微软雅黑';height:18px;line-height:18px;
+}
+.line .o-time {
+font-size:12px;font-family:'微软雅黑';color:#737373;height:13px;line-height:13px;
+}
+.line .info {
+position:absolute;right:15px;bottom:7px;
+}
+.info p {
+height:15px;line-height:15px;text-align:right;
+}
+.info .income {
+color:#ff5454;
+}
+.info .spending {
+color:#00af29;
+}

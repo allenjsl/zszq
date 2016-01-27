@@ -1,0 +1,95 @@
+﻿@charset 'utf-8';
+.wapper .head-title {
+    height: 40px;
+    line-height: 40px;
+    background: #f3f7f9;
+    position: relative;
+}
+
+.head-title span {
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #535353;
+    position: absolute;
+}
+
+.head-title .title-one {
+      left: 3%;
+}
+
+.head-title .title-two {
+    left: 17%;
+}
+
+.head-title .title-three {
+    left: 40%;
+}
+
+.head-title .title-four {
+    left: 64%;
+}
+
+.head-title .title-five {
+    left: 86%;
+}
+
+.wapper .list-item {
+   font-size:14px; font-family:Arial;
+}
+
+.list-item .list {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+}
+
+.list-item .last {
+    border-bottom: none !important;
+}
+
+.list .item {
+    position: absolute;
+    height: 41px;
+    line-height: 31px;
+}
+.item-one .time {
+    color: #969696;
+}
+
+.item-one .name {
+}
+
+.item p {
+    height: 16px;
+}
+.list .item-one {
+     left: 3%;
+    line-height: 41px;
+}
+
+.list .item-two {
+    left: 17%;
+}
+
+.list .item-three {
+    left: 40%;
+}
+
+.list .item-four {
+    left: 64%;
+}
+
+.list .item-five {
+    left: 86%;
+    line-height: 41px;
+    width: 65px;
+    margin-left: -22px;
+    text-align:center;
+}
+.list .buy {
+    color:#ff9936;
+}
+.list .sale {
+    color:#3ac0ff;
+}

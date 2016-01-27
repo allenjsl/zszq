@@ -1,0 +1,29 @@
+﻿@charset 'utf-8';
+.wapper {
+padding:10px 0px;font-size:12px;font-family: Arial;
+}
+.wapper .line {
+    height:44px;position:relative;border-bottom:1px solid #dfdfdf;
+}
+.line span {
+position:absolute;
+}
+.line .o-type {
+     font-size:14px;left:15px;top:3px;
+}
+.line .money {
+    font-size:14px;top:0;right:15px;top:3px;
+}
+.line .o-date {
+    color:#737373;bottom:3px;left:15px;
+}
+.line .type {
+    color:#737373;right:15px;bottom:3px;
+}
+.line .yl {
+    color:#ff3b3b;
+}
+.line .ks {
+     color:#00af29;
+}
+

@@ -1,0 +1,11 @@
+﻿@charset 'utf-8';
+.wapper .line {
+    height:44px;line-height:44px;font-size:17px;padding-left:15px;
+    border-bottom:1px solid #dfdfdf;position:relative;
+}
+.line .val {
+position:absolute;right:15px;
+}
+.wapper .sced {
+margin-top:20px;border-top:1px solid #dfdfdf;
+}

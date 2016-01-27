@@ -1,0 +1,93 @@
+﻿@charset 'utf-8';
+.wd-zjb {
+background:url('/zsjy/img/wd/wd-zjb/wd-zjb.png') no-repeat;
+background-size:50px 55px;
+}
+.wapper .business-module {
+    margin-top: 15px;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+}
+
+.business-module .business-item {
+    height: 45px;line-height:42px;
+}
+.business-item .no-border-bottom {
+    border-bottom: none !important;
+}
+
+.business-item .ico-item {
+    float: left;
+    width: 45px;
+    height: 45px;
+    line-height: 55px;
+    text-align: center;
+    position:relative;
+}
+
+.ico-item .ico {
+    width: 24px;
+    height: 21px;
+}
+.ico-item .new-info {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    border-radius: 10px;
+}
+.ico-item .i-have {
+    background:#ff4d4d;
+}
+/*金币详情*/
+.ico-item .jbxq {
+    background-position: -0px -6px;
+}
+/*猜大盘涨跌*/
+.ico-item .cdp {
+    background-position: -0px -31px;
+}
+/*兑换话费*/
+.ico-item .dhhf {
+    background-position: -24px -6px;
+}
+.business-item .desc {
+    position: relative;
+    margin-left: 45px;
+    height: 45px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.desc .module-name {
+    font-family: '微软雅黑';
+    font-size: 17px;
+    color: #434343;
+}
+.desc .blue {
+    color:#19b6ff !important;
+}
+.desc .module-desc {
+    position: absolute;
+    right: 31px;
+    font-size: 12px;
+    color: #969696;
+}
+
+.desc .right-ico {
+    position: absolute;
+    right: 15px;
+    top: 16px;
+    height: 13px;
+    width: 9px;
+    background-position: -32px -35px;
+}
+.margint {
+margin-top:30px !important;
+}
+.wapper .more {
+    margin-top:17px;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+padding-left:15px;color:#737373;height:45px;line-height:45px;
+}

@@ -1,0 +1,46 @@
+﻿@charset 'utf-8';
+.wapper .line {
+height:40px;border-bottom:1px solid #dfdfdf;position:relative;font-family:'Arial';
+}
+.line span {
+     font-size:15px;position:absolute;top:10px;
+}
+.line .fields {
+    left:16px;font-family:'微软雅黑';
+}
+.line .value {
+    right:16px;
+}
+ .btn {
+   position:fixed;width:100%; height:49px;bottom:0;border-top:1px solid #d1d1d1;z-index: 99;
+}
+.wapper .tts {
+    height:49px;
+}
+.btn .btnitem {
+position:absolute;width:62px;height:17px;
+}
+    .btn .btnitem:active {
+    font-weight:bold;
+    }
+.btn .pre {
+    left:15px;top:17px;
+}
+.btn .next {
+    right:15px;top:17px;
+}
+.btnitem i {
+    display:inline-block;
+    width:9px;height:16px;
+    background:url('/zsjy/img/jy/jy-chaxun/jy-jgd/jgd-xq/jgdxq.png') no-repeat;
+    background-size:9px 33px;
+}
+.btnitem span {
+font-size:15px;color:#00aeff;position:relative;top:-3px;
+}
+.btnitem .ico-pre {
+    background-position:0px 0px;
+}
+.btnitem .ico-next {
+     background-position:-1px -17px;
+}

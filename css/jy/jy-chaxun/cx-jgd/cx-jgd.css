@@ -1,0 +1,62 @@
+﻿@charset 'utf-8';
+body {
+    overflow:hidden;
+}
+.wapper {
+    background: #fff;overflow:hidden;
+}
+
+    .wapper .datetime {
+        height:35px;padding:8px 34px;
+
+    }
+.datetime .pos {
+    position:relative;height:20px;
+}
+.datetime .date {
+width:97px;
+height:20px;
+border:1px solid #d1d1d1;
+text-align:center;
+}
+.datetime .arrow {
+position:absolute;
+width:30px;height:4px;
+margin:auto;left:0;right:0;top:0;bottom:0;
+background:url('/zsjy/img/jy/jy-chaxun/jy-jgd/jy-jgd.png') no-repeat;
+background-size:30px 4px;
+}
+.datetime .enddate {
+position:absolute;right:0;
+}
+.datetime .beggin {
+position:absolute;left:0;
+}
+
+.wapper .list {
+    overflow-y:scroll;
+}
+.list .item {
+height:44px;line-height:44px;white-space:nowrap;font-size:0;
+}
+.list .title {
+    background:#f3f7f9;height:40px !important;line-height:40px !important;
+}
+.item .fields {
+    width:33%;font-size:14px;text-align:center;vertical-align:top;
+}
+.fields .stock {
+display:block;line-height:0px;position:relative;
+}
+.fields .name {
+    top:14px;
+}
+.fields .code {
+    top:31px;
+}
+.list .listitem {
+overflow-y:scroll;font-family:'Arial';
+}
+.listitem .borderbttom {
+border-bottom:1px solid #dfdfdf;
+}

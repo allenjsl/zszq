@@ -1,0 +1,17 @@
+﻿body{ background:#f4f4f4;}
+.huafei_box{ padding:15px; overflow:hidden;}
+.huafei_box li{width:100%; height:25px; line-height:25px; padding:10px 0; border-bottom:#ddd solid 1px;}
+.huafei_box li label{width:120px; text-align:right; float:left; display:inline-block; font-size:16px;}
+.huafei_box li em{ font-size:20px; padding-right:5px; font-weight:bold; font-family:arial;}
+.huafei_box span{ float:left;}
+.huafei_box p{color:#666; padding-top:6px;}
+.huafei_box p:last-of-type{border-bottom:#ddd solid 1px; padding-bottom:10px;}
+
+.number{margin-left:5px; margin-right:5px;display:inline-block; height:25px; line-height:25px;text-align:center; position:relative;}
+.number i {width:25px;height:25px;position:absolute;top:0; cursor:pointer;}
+.number i:after { background:#d9d9d9;color:#9c9c9c;width:25px;height:25px; line-height:25px;position:absolute;text-align:center;}
+.number i.num-minus {font: 400 2.8em/16px Arial; left:0;}
+.number i.num-add {font: 400 2.2em/22px Arial;right: 0;}
+.number i.num-minus:after {content: "-";left: 0; line-height:20px;}
+.number i.num-add:after {content: "+";right: 0;}
+.number input{width:41px; height:25px;border:none 0;margin:0 25px; vertical-align:top; background:#e9e9e9; font-size:14px; color:#adadad;text-align:center; font-weight:bold;}

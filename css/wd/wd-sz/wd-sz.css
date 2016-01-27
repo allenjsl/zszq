@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+.wapper {
+padding-top:5px;padding-bottom:20px;
+}
+.wd-sz {
+    background:url('/zsjy/img/wd/wd-sz/wd-sz.png') no-repeat;
+    background-size:75px 75px;
+}
+.wapper .linelist {
+margin-top:15px;border-bottom: 1px solid #dfdfdf;
+border-top: 1px solid #dfdfdf;
+}
+.linelist .line {
+height:44px;line-height:44px;position:relative;padding-left:16px;
+border-bottom: 1px solid #dfdfdf;
+}
+.linelist .last {
+    border-bottom:none !important;
+}
+.line .o-name {
+    font-size:14px;font-family:'微软雅黑';
+}
+.line .ico {
+position:absolute;width:10px; height:15px;bottom:14px;right:15px;
+}
+.line .onoff {
+position:absolute;width:51px; height:32px;bottom:5px;right:15px;
+}
+.line .off {
+background-position:-4px -2px;
+}
+.line .on {
+background-position:-4px -39px !important;
+}
+.line .arrow {
+background-position:-58px -8px;
+}
+.line .desc {
+    color:#969696;position:absolute;bottom:14px;right:31px;height:15px;line-height:15px;
+}
+.line .d-more {
+right:74px !important;
+}
+.linelist .moreline {
+padding-left:0 !important;margin-left:16px;
+}
+
+/*弹出层BEGIN*/
+.dialig {
+width:215px;border-radius:4px;
+}
+.dialig .title {
+    font-size: 14px;
+    font-family: '微软雅黑';
+    height: 42px;
+    line-height: 42px;
+    text-align:center;font-weight:bold;
+}
+.dialig .btn {
+height:42px;line-height:41px;border-top: 1px solid #ddd;font-size:0;white-space:nowrap;}
+.btn span{
+    display:inline-block;
+    width:49%;text-align:center;
+    font-size:14px;color:#00aeff;font-family: '微软雅黑';
+}.btn span:active{
+   font-weight:bold;
+}
+.btn .btn-left {
+    border-right: 1px solid #ddd;
+}
+/*弹出层END*/

@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>推送消息</title>
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/common.js"></script>
+<script>
+    var tzt = new fnTZT($);
+    var oVal = {
+        socid: "",//推送消息套接字id
+        type: "",//推送消息类型
+        url: decodeURIComponent(location.search.slice(1))
+    };
+    //客户端返回调用js函数也是关闭页面的函数
+    function GoBackOnLoad() {
+        changeURL("http://action:10002"); return false;
+    }
+    $(function () {
+        init();
+    });
+    function init() {
+//        changeURL('http://action:1901/?tab5=0');
+    					changeURL('http://action:10071/?');
+
+        oVal.socid = tzt.getUrlParameter('socid', oVal.url);
+        oVal.type = tzt.getUrlParameter('type', oVal.url);
+        if (!oVal.socid || !oVal.type) {
+            GoBackOnLoad();
+        }
+        else {
+            //处理推送消息
+            gotoMesg();
+        }
+    }
+    function gotoMesg() {
+        var oSendData = {
+            action: "41048",
+            socid: oVal.socid,
+            MobileCode: "($MobileCode)",
+            type: oVal.type
+        }
+        tzt.getData(tzt.REQ.XML, oSendData, function (oData) {
+            if (oData.ERRORNO < 0) {
+                //关闭页面
+                GoBackOnLoad();
+            }
+            else {
+                var modify = oData.MODIFY || '25';
+                switch (oData.OPER) {
+                    case "4": fnModify('25'); break;
+                        //默认关闭页面
+                    default: GoBackOnLoad();
+                }
+            }
+        });
+    }
+    //推送消息的modify
+    function fnModify(str) {
+        var sUrl = "http://action:1964?url=" + encodeURIComponent("/zsjy/app/wd/wd-cxx/cxx-xxxq/cxx-xxxq.html?");
+        var sUrlParamer = "";
+        switch (str) {
+            case "25": sUrlParamer = "socid=" + oVal.socid + "&type=" + oVal.type; break;
+                //默认关闭页面
+            default: GoBackOnLoad();
+        }
+        //跳转到消息详情页
+        changeURL((sUrl + encodeURIComponent(sUrlParamer)));
+    }
+</script>
+</html>

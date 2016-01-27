@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+.wapper {
+    padding:0 15px 19px 15px; font-size:14px;
+}
+    .wapper .item {
+    margin-top:12px;
+    }
+.item .title {
+   
+}
+.title .left {
+width:44px;height:14px;float:left;
+}
+.title .right {
+margin-left:44px;height:14px;position:relative;
+}
+.right .line {
+height:1px;background:#d5d5d5;position:relative;top:5px;left:2px;
+}
+.left .ico {
+display:inline-block;width:8px;height:8px;background:#e55126;border-radius:8px;position:relative;top:-4px;
+}
+.left .word {
+position:relative;top:-4px;
+}
+.item .btn {
+}
+.btn .b-line {
+font-size:0;white-space:nowrap;position:relative;height:32px;margin-top:8px;
+}
+.b-line span {
+position:absolute;font-size:12px;width:30%;height:32px;text-align:center;line-height:32px;border:1px solid #d1d1d1;
+}
+.b-line .b-one {
+    left:0;
+}
+.b-line .b-two {
+    right:35%;
+}
+.b-line .b-three {
+    right:0;
+}

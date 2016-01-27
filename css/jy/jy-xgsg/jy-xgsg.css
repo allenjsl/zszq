@@ -1,0 +1,26 @@
+﻿@charset 'utf-8';
+.wapper .line {
+height:42px;line-height:42px;font-size:17px;font-family:'微软雅黑';position:relative; border-bottom: 1px solid #dfdfdf;  border-bottom: 1px solid #dfdfdf;padding-left:15px;
+}
+.line .allow-ico {
+position:absolute;width:8px;height:14px;right:15px;top:15px;
+}
+.line .circle {
+    position:absolute;width:5px;height:5px;border-radius:5px;background:#ff0505;left:88px;bottom:27px;
+}
+
+.wapper .module {
+margin-top:20px;border-top: 1px solid #dfdfdf;
+}
+.wapper .module-more {
+margin-top:20px;border-bottom: 1px solid #dfdfdf;
+}
+.module-more .desc {
+    color:#818181;font-size:14px;padding-left:15px;height:26px;line-height:26px;border-bottom: 1px solid #dfdfdf;font-family:'微软雅黑';
+}
+.module-more .line-m {
+    height:42px;line-height:42px;font-family:'黑体';position:relative; border-bottom: 1px solid #dfdfdf;  border-bottom: 1px solid #dfdfdf;margin-left:15px;color:#868686;font-size:15px;
+}
+.module-more .last {
+border-bottom:none !important;
+}

@@ -1,0 +1,19 @@
+﻿body{ background:#f4f4f4;}
+
+.yyt_box{ padding:15px; overflow:hidden;}
+.item_list{ font-size:16px;}
+.item_list li{ padding-left:40px; display:block; height:44px; line-height:44px; border-bottom:#ddd solid 1px; position:relative; padding-right:30px; color:#444;}
+.item_list li i{background:url(../image/yyt_icon.png) no-repeat; display:inline-block; position:absolute; left:5px; background-size:30px 338px;top:12px;}
+
+.item_list li i.yyt_icon01{ background-position:-2px -1px;width:24px; height:21px; }
+.item_list li i.yyt_icon02{ background-position:-8px -26px;width:12px; height:21px;left:10px;}
+.item_list li i.yyt_icon03{ background-position:-5px -53px;width:20px; height:20px; }
+.item_list li i.yyt_icon04{ background-position:-2px -80px;width:26px; height:21px; }
+.item_list li i.yyt_icon05{ background-position:-4px -114px;width:22px; height:21px; }
+.item_list li i.yyt_icon06{ background-position:-4px -141px;width:21px; height:21px; }
+.item_list li i.yyt_icon07{ background-position:-3px -174px;width:23px; height:20px; }
+.item_list li i.yyt_icon08{ background-position:-4px -208px;width:20px; height:21px; }
+.item_list li i.yyt_icon09{ background-position:-5px -246px;width:20px; height:20px; }
+.item_list li i.yyt_icon010{ background-position:-7px -283px;width:14px; height:18px;left:8px;}
+
+.item_list li:last-of-type{ border:none 0;}

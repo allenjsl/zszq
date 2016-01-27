@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>我的</title>
+    <link href="../../css/base/base.css" rel="stylesheet" />
+    <link href="../../css/wd/wd.css" rel="stylesheet" />
+</head>
+<body id="wrapper">
+    <div class="wapper">
+        <!--顶部提示BEGIN-->
+        <div class="tips hidden j_tips">
+            您好,80%的中山证券用户已经开通现金通，为闲置资金自动理财!<span class="kaitong">一键开通&nbsp;&nbsp;>></span>
+        </div>
+        <!--顶部提示END-->
+        <!--未登录登陆按钮BEGIN-->
+        <div class="not-login bgfff j_notlogina hidden">
+            <span class="login-btn j_loginnow">立即登录</span>
+            <!--<span class="desc ">每天登录,每天送10金币</span>-->
+        </div>
+        <!--未登录登陆按钮END-->
+        <!--登陆后显示用户姓名等BEGIN-->
+        <div class="has-login bgfff hidden j_login">
+            <div class="welcome">
+                <span class="u-name j_username"></span>
+                <span class="desc j_welcome"></span>
+                <i class="wd-png u-ico j_grxx"></i>
+            </div>
+            <div class="u-info">
+                <div class="i-item i-left">
+                    <div class="bg-circle">
+                        <div class="circle-color">
+                             <div class="hold1">
+        <div class="pie1">
+        </div>
+    </div>
+    <div class="hold2">
+        <div class="pie2">
+        </div>
+    </div>
+                            <div class="circle-gray ">
+                                <div class="circle-content">
+                                    <div class="circle-num">
+                                        <span class="c-num j_ccbfb">0</span>
+                                        <span class="c-sym">%</span>
+                                    </div>
+                                    <div class="cricle-desc">持仓</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="i-item i-right">
+                    <!--总市值-->
+                    <div class="i-line">
+                        <div class="fields">
+                            <i class="i-ico zsz"></i>
+                            <span class="i-name">股票市值</span>
+                        </div>
+                        <div class="value">
+                            <span class="val j_zsz">0.00</span>
+                            <span class="unit">元</span>
+                        </div>
+                    </div>
+                    <!--可用金额-->
+                    <div class="i-line">
+                        <div class="fields">
+                            <i class="i-ico kyje"></i>
+                            <span class="i-name">可用金额</span>
+                        </div>
+                        <div class="value">
+                            <span class="val j_kyje">0.00</span>
+                            <span class="unit">元</span>
+                        </div>
+                    </div>
+                    <!--可取余额-->
+                    <div class="i-line">
+                        <div class="fields">
+                            <i class="i-ico kqye"></i>
+                            <span class="i-name">可取余额</span>
+                        </div>
+                        <div class="value">
+                            <span class="val j_kqye">0.00</span>
+                            <span class="unit">元</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--登陆后显示用户姓名等END-->
+        <div class="business-module bgfff">
+            <!--查消息-->
+            <div class="business-item j_cxx">
+                <div class="ico-item">
+                    <i class="inlineBlock wd-png ico cxx"></i>
+                    <i class="inlineBlock  i-have j_mesgred"></i>
+                </div>
+                <div class="desc">
+                    <span class="inlineBlock module-name">查消息</span>
+                    <span class="module-desc"></span>
+                    <i class="wd-png  right-ico"></i>
+                </div>
+            </div>
+            <!--办业务-->
+            <div class="business-item">
+                <div class="ico-item">
+                    <i class="inlineBlock wd-png ico byw"></i>
+                </div>
+                <div class="desc j_byw no-border-bottom">
+                    <span class="inlineBlock module-name">办业务</span>
+                    <span class="module-desc"></span>
+                    <i class="wd-png  right-ico"></i>
+                </div>
+            </div>
+            <!--玩游戏-->
+            <div class="business-item hidden">
+                <div class="ico-item">
+                    <i class="inlineBlock wd-png ico wyx"></i>
+                </div>
+                <div class="desc">
+                    <span class="inlineBlock module-name">玩游戏</span>
+                    <span class="module-desc"></span>
+                    <i class="wd-png  right-ico"></i>
+                </div>
+            </div>
+            <!--赚金币-->
+            <div class="business-item j_zjb hidden">
+                <div class="ico-item">
+                    <i class="inlineBlock wd-png ico zjb"></i>
+                </div>
+                <div class="desc no-border-bottom">
+                    <span class="inlineBlock module-name">赚金币</span>
+                    <span class="module-desc"></span>
+                    <i class="wd-png  right-ico"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../lib/seajs/sea.js"></script>
+    <script>
+        seajs.use('/zsjy/js/wd/wd-index');
+    </script>
+</html>

@@ -1,0 +1,94 @@
+﻿@charset 'utf-8';
+.wapper .head-title {
+    height: 40px;
+    line-height: 40px;
+    background: #f3f7f9;
+    position: relative;
+}
+
+.head-title span {
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #535353;
+    position: absolute;
+}
+
+.head-title .title-one {
+    left: 10px;
+}
+
+.head-title .title-two {
+    left: 24%;
+}
+
+.head-title .title-three {
+    left: 51%;
+}
+
+.head-title .title-four {
+    left: 77%;
+}
+
+
+.wapper .list-item {
+    font-size: 14px;font-family:'Arial';
+}
+
+.list-item .list {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+}
+
+.list-item .last {
+    border-bottom: none !important;
+}
+
+.list .item {
+    position: absolute;
+    height: 41px;
+    line-height: 28px;
+}
+
+.list .item-one {
+    left: 10px;
+}
+
+.item-one .time {
+    color: #969696;
+}
+
+.item-one .name {
+}
+
+.item p {
+    height: 16px;
+}
+
+.list .item-two {
+    left: 24%;
+    line-height: 41px;
+    width: 45px;
+width: 57px;
+text-align: center;
+}
+
+.list .item-three {
+     left: 47%;line-height:41px;width: 90px;
+overflow: hidden;
+text-overflow: ellipsis;text-align:center;
+}
+
+.list .item-four {
+     left: 77%;line-height:41px;
+}
+.item .t-r {
+text-align:right;
+}
+.list .item-five {
+    color: #4cc6ff;
+    font-size: 12px;
+    left: 88%;
+    line-height: 41px;
+}

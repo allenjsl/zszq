@@ -1,0 +1,417 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8EB40A64-8214-4F10-B3CC-7782CD1CB5A4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>zsjy</RootNamespace>
+    <AssemblyName>zsjy</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\hqmore\hqmore.html" />
+    <Content Include="app\index\index.html" />
+    <Content Include="app\jy\jy-chaxun\cx-drcj\cx-drcj.html" />
+    <Content Include="app\jy\jy-chaxun\cx-drwt\cx-drwt.html" />
+    <Content Include="app\jy\jy-chaxun\cx-jgd\cx-jgd.html" />
+    <Content Include="app\jy\jy-chaxun\cx-jgd\jgd-xq\jgd-xq.html" />
+    <Content Include="app\jy\jy-chaxun\cx-lscj\cx-lscj.html" />
+    <Content Include="app\jy\jy-chaxun\cx-lswt\cx-lswt.html" />
+    <Content Include="app\jy\jy-chaxun\jy-chaxun.html" />
+    <Content Include="app\jy\jy-chedan\jy-chedan.html" />
+    <Content Include="app\jy\jy-chicang\jy-chicang.html" />
+    <Content Include="app\jy\jy-index\jy-index.html" />
+    <Content Include="app\jy\jy-xgsg\jy-xgsg.html" />
+    <Content Include="app\jy\jy-xgsg\sg-ksged\sg-ksged.html" />
+    <Content Include="app\jy\jy-xgsg\sg-sgmx\sg-sgmx.html" />
+    <Content Include="app\jy\jy-xgsg\sg-xgrl\sg-xgrl.html" />
+    <Content Include="app\jy\jy-xgsg\sg-xgsg\sg-xgsg.html" />
+    <Content Include="app\jy\jy-xgsg\sg-xgzq\sg-xgzq.html" />
+    <Content Include="app\jy\jy-xgsg\xgph\xgph.html" />
+    <Content Include="app\login\findpassword.html" />
+    <Content Include="app\open\open.html" />
+    <Content Include="app\recharge\error.html" />
+    <Content Include="app\recharge\recharge.html" />
+    <Content Include="app\wd\wd-byw\byw-xjt\byw-xjt.html" />
+    <Content Include="app\wd\wd-byw\wd-byw.html" />
+    <Content Include="app\wd\wd-cxx\cxx-xxxq\cxx-xxxq.html" />
+    <Content Include="app\wd\wd-cxx\wd-cxx.html" />
+    <Content Include="app\wd\wd-cxx\wd-lm.html" />
+    <Content Include="app\wd\wd-grxx\wd-grxx.html" />
+    <Content Include="app\wd\wd-index.html" />
+    <Content Include="app\wd\wd-sz\sz-bbxx\sz-bbxx.html" />
+    <Content Include="app\wd\wd-sz\sz-mzsm\sz-mzsm.html" />
+    <Content Include="app\wd\wd-sz\sz-xgmm\sz-xgmm.html" />
+    <Content Include="app\wd\wd-sz\sz-yjfk\sz-yjfk.html" />
+    <Content Include="app\wd\wd-sz\wd-sz.html" />
+    <Content Include="app\wd\wd-zjb\wd-zjb.html" />
+    <Content Include="app\wd\wd-zjb\zjb-cdp\cdp-cx\cdp-cx.html" />
+    <Content Include="app\wd\wd-zjb\zjb-cdp\cdp-sm\cdp-sm.html" />
+    <Content Include="app\wd\wd-zjb\zjb-cdp\zjb-cdp.html" />
+    <Content Include="app\wd\wd-zjb\zjb-jbmx\zjb-jbmx.html" />
+    <Content Include="app\zzls\zzls.html" />
+    <Content Include="css\base-min.css" />
+    <Content Include="css\base\base.css" />
+    <Content Include="css\basic.css" />
+    <Content Include="css\hqmore\hqmore.css" />
+    <Content Include="css\huafei.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\index\index.css" />
+    <Content Include="css\jiangping.css" />
+    <Content Include="css\jy.css" />
+    <Content Include="css\jy\jy-chaxun\cx-drcj\cx-drcj.css" />
+    <Content Include="css\jy\jy-chaxun\cx-drwt\cx-drwt.css" />
+    <Content Include="css\jy\jy-chaxun\cx-jgd\cx-jgd.css" />
+    <Content Include="css\jy\jy-chaxun\cx-jgd\jgd-xq\jgd-xq.css" />
+    <Content Include="css\jy\jy-chaxun\cx-lscj\cx-lscj.css" />
+    <Content Include="css\jy\jy-chaxun\cx-lswt\cx-lswt.css" />
+    <Content Include="css\jy\jy-chaxun\jy-chaxun.css" />
+    <Content Include="css\jy\jy-chedan\jy-chedan.css" />
+    <Content Include="css\jy\jy-chicang\jy-chicang.css" />
+    <Content Include="css\jy\jy-index\jy-index.css" />
+    <Content Include="css\jy\jy-xgsg\jy-xgsg.css" />
+    <Content Include="css\jy\jy-xgsg\sg-ksged\sg-ksged.css" />
+    <Content Include="css\jy\jy-xgsg\sg-sgmx\sg-sgmx.css" />
+    <Content Include="css\jy\jy-xgsg\sg-xgrl\sg-xgrl.css" />
+    <Content Include="css\jy\jy-xgsg\sg-xgsg\sg-xgsg.css" />
+    <Content Include="css\jy\jy-xgsg\sg-xgzq\sg-xgzq.css" />
+    <Content Include="css\jy\jy-xgsg\xgph\xgph.css" />
+    <Content Include="css\lib\slide\slide.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\login\findpassword.css" />
+    <Content Include="css\recharge\error.css" />
+    <Content Include="css\recharge\recharge.css" />
+    <Content Include="css\slider.css" />
+    <Content Include="css\user.css" />
+    <Content Include="css\wd\wd-byw\byw-xjt\byw-xjt.css" />
+    <Content Include="css\wd\wd-byw\wd-byw.css" />
+    <Content Include="css\wd\wd-cxx\cxx-xxxq\cxx-xxxq.css" />
+    <Content Include="css\wd\wd-cxx\wd-cxx.css" />
+    <Content Include="css\wd\wd-cxx\wd-lm.css" />
+    <Content Include="css\wd\wd-grxx\wd-grxx.css" />
+    <Content Include="css\wd\wd-sz\sz-bbxx\sz-bbxx.css" />
+    <Content Include="css\wd\wd-sz\sz-mzsm\sz-mzsm.css" />
+    <Content Include="css\wd\wd-sz\sz-xgmm\sz-xgmm.css" />
+    <Content Include="css\wd\wd-sz\sz-yjfk\sz-yjfk.css" />
+    <Content Include="css\wd\wd-sz\wd-sz.css" />
+    <Content Include="css\wd\wd-zjb\wd-zjb.css" />
+    <Content Include="css\wd\wd-zjb\zjb-cdp\cdp-cx\cdp-cx.css" />
+    <Content Include="css\wd\wd-zjb\zjb-cdp\cdp-sm\cdp-sm.css" />
+    <Content Include="css\wd\wd-zjb\zjb-cdp\zjb-cdp.css" />
+    <Content Include="css\wd\wd-zjb\zjb-jbmx\zjb-jbmx.css" />
+    <Content Include="css\wd\wd.css" />
+    <Content Include="css\wytc.css" />
+    <Content Include="css\wyzq.css" />
+    <Content Include="css\yyt.css" />
+    <Content Include="css\zzls\zzls.css" />
+    <Content Include="huafei.html" />
+    <Content Include="huafei2.html" />
+    <Content Include="image\add_icon.png" />
+    <Content Include="image\banner-1.png" />
+    <Content Include="image\fuxuank.png" />
+    <Content Include="image\fuxuank_on.png" />
+    <Content Include="image\head_no.png" />
+    <Content Include="image\index-bg.png" />
+    <Content Include="image\index-icon.png" />
+    <Content Include="image\jp_icon.png" />
+    <Content Include="image\login_icon.png" />
+    <Content Include="image\putong_icon.png" />
+    <Content Include="image\tc-bg.png" />
+    <Content Include="image\tc-icon.png" />
+    <Content Include="image\tel_icon.png" />
+    <Content Include="image\user_icon.png" />
+    <Content Include="image\user_img01.gif" />
+    <Content Include="image\user_w.png" />
+    <Content Include="image\xinyong_icon.png" />
+    <Content Include="image\yyt_icon.png" />
+    <Content Include="image\yzm.gif" />
+    <Content Include="image\zq_bg.jpg" />
+    <Content Include="image\zq_img.png" />
+    <Content Include="img\allowright.png" />
+    <Content Include="img\banner-1.png" />
+    <Content Include="img\count-back-bg.png" />
+    <Content Include="img\index-bg.png" />
+    <Content Include="img\index-icon-2.png" />
+    <Content Include="img\index-icon-3.png" />
+    <Content Include="img\index-icon.png" />
+    <Content Include="img\index\banner1.png" />
+    <Content Include="img\index\fuqinjieKV.png" />
+    <Content Include="img\index\index.png" />
+    <Content Include="img\jy\jy-chaxun\jy-chaxun.png" />
+    <Content Include="img\jy\jy-chaxun\jy-jgd\jgd-xq\jgdxq.png" />
+    <Content Include="img\jy\jy-chaxun\jy-jgd\jy-jgd.png" />
+    <Content Include="img\jy\jy-chicang\chicang2.png" />
+    <Content Include="img\jy\jy-chicang\jy-chicang.png" />
+    <Content Include="img\jy\jy-chicang\refresh.png" />
+    <Content Include="img\jy\jy-index\jy-index.png" />
+    <Content Include="img\jy\jy-xgsg\xgsg.png" />
+    <Content Include="img\kh-bg.png" />
+    <Content Include="img\login\findpassword.png" />
+    <Content Include="img\recharge\error.png" />
+    <Content Include="img\recharge\searching.png" />
+    <Content Include="img\syl-bg.png" />
+    <Content Include="img\tc-bg-1.png" />
+    <Content Include="img\tc-bg-2.png" />
+    <Content Include="img\tc-bg.png" />
+    <Content Include="img\tc-icon.png" />
+    <Content Include="img\tc-icon01.png" />
+    <Content Include="img\tc-icon02.png" />
+    <Content Include="img\tc-icon03.png" />
+    <Content Include="img\tc-icon04.png" />
+    <Content Include="img\wd\wd-byw\byw-xjt\byw-xjt.png" />
+    <Content Include="img\wd\wd-byw\wdyw.png" />
+    <Content Include="img\wd\wd-sz\bbico1.png" />
+    <Content Include="img\wd\wd-sz\bbxx2.png" />
+    <Content Include="img\wd\wd-sz\bbxx3.png" />
+    <Content Include="img\wd\wd-sz\bbxx4.png" />
+    <Content Include="img\wd\wd-sz\wd-sz.png" />
+    <Content Include="img\wd\wd-zjb\wd-zjb.png" />
+    <Content Include="img\wd\wd.png" />
+    <Content Include="index.html" />
+    <Content Include="jiangping.html" />
+    <Content Include="jiaoyi.html" />
+    <Content Include="js\common-min.js" />
+    <Content Include="js\enow\index.js" />
+    <Content Include="js\enow\login.js" />
+    <Content Include="js\enow\register.js" />
+    <Content Include="js\enow\register2.js" />
+    <Content Include="js\enow\wytc.js" />
+    <Content Include="js\hqmore\hqmore.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\index\index.js" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery.event.drag-1.5.min.js" />
+    <Content Include="js\jquery.touchSlider.js" />
+    <Content Include="js\jy\jy-chaxun\cx-drcj\cx-drcj.js" />
+    <Content Include="js\jy\jy-chaxun\cx-drwt\cx-drwt.js" />
+    <Content Include="js\jy\jy-chaxun\cx-jgd\cx-jgd.js" />
+    <Content Include="js\jy\jy-chaxun\cx-jgd\jgd-xq\jgd-xq.js" />
+    <Content Include="js\jy\jy-chaxun\cx-lscj\cx-lscj.js" />
+    <Content Include="js\jy\jy-chaxun\cx-lswt\cx-lswt.js" />
+    <Content Include="js\jy\jy-chaxun\jy-chaxun.js" />
+    <Content Include="js\jy\jy-chedan\jy-chedan.js" />
+    <Content Include="js\jy\jy-chicang\jy-chicang.js" />
+    <Content Include="js\jy\jy-index\jy-index.js" />
+    <Content Include="js\jy\jy-xgsg\jy-xgsg.js" />
+    <Content Include="js\jy\jy-xgsg\sg-ksged\sg-ksged.js" />
+    <Content Include="js\jy\jy-xgsg\sg-sgmx\sg-sgmx.js" />
+    <Content Include="js\jy\jy-xgsg\sg-xgrl\sg-xgrl.js" />
+    <Content Include="js\jy\jy-xgsg\sg-xgsg\sg-xgsg.js" />
+    <Content Include="js\jy\jy-xgsg\sg-xgzq\sg-xgzq.js" />
+    <Content Include="js\jy\jy-xgsg\xgph\xgph.js" />
+    <Content Include="js\login\findpassword.js" />
+    <Content Include="js\recharge\error.js" />
+    <Content Include="js\recharge\recharge.js" />
+    <Content Include="js\wd\wd-byw\byw-xjt\byw-xjt.js" />
+    <Content Include="js\wd\wd-byw\wd-byw.js" />
+    <Content Include="js\wd\wd-cxx\cxx-xxxq\cxx-xxxq.js" />
+    <Content Include="js\wd\wd-cxx\wd-cxx.js" />
+    <Content Include="js\wd\wd-cxx\wd-lm.js" />
+    <Content Include="js\wd\wd-grxx\wd-grxx.js" />
+    <Content Include="js\wd\wd-index.js" />
+    <Content Include="js\wd\wd-sz\sz-bbxx\sz-bbxx.js" />
+    <Content Include="js\wd\wd-sz\sz-mzsm\sz-mzsm.js" />
+    <Content Include="js\wd\wd-sz\sz-xgmm\sz-xgmm.js" />
+    <Content Include="js\wd\wd-sz\sz-yjfk\sz-yjfk.js" />
+    <Content Include="js\wd\wd-sz\wd-sz.js" />
+    <Content Include="js\wd\wd-zjb\wd-zjb.js" />
+    <Content Include="js\wd\wd-zjb\zjb-cdp\zjb-cdp.js" />
+    <Content Include="js\zzls\zzls.js" />
+    <Content Include="jy_login.html" />
+    <Content Include="lib\common\common-cmd.js" />
+    <Content Include="lib\common\common.js" />
+    <Content Include="lib\iscroll-lite\iscroll-lite-cmd.js" />
+    <Content Include="lib\iscroll-lite\iscroll-lite.js" />
+    <Content Include="lib\jquery\jquery-cmd.js" />
+    <Content Include="lib\jquery\jquery.js" />
+    <Content Include="lib\rednot\function.js" />
+    <Content Include="lib\seajs\sea.js" />
+    <Content Include="lib\slide\slide.js" />
+    <Content Include="lib\zepto\zepto-cmd-debug.js" />
+    <Content Include="lib\zepto\zepto-cmd.js" />
+    <Content Include="lib\zepto\zepto.js" />
+    <Content Include="login.html" />
+    <Content Include="pub\js\common.js" />
+    <Content Include="pub\js\jquery.js" />
+    <Content Include="pub\push_message.htm" />
+    <Content Include="register.html" />
+    <Content Include="register2.html" />
+    <Content Include="shouji.html" />
+    <Content Include="update_touxiang.html" />
+    <Content Include="user.html" />
+    <Content Include="Web.config" />
+    <Content Include="wytc.html" />
+    <Content Include="wyzq.html" />
+    <Content Include="yonghuming.html" />
+    <Content Include="yyt.html" />
+    <Content Include="zijinzhanghao.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\gonglue.css" />
+    <Content Include="css\jiaoyi_login.css" />
+    <Content Include="css\jquery.fullPage.css" />
+    <Content Include="css\progress.css" />
+    <Content Include="css\rili\app.css" />
+    <Content Include="css\rili\mui.dtpicker.css" />
+    <Content Include="css\rili\mui.listpicker.css" />
+    <Content Include="css\rili\mui.min.css" />
+    <Content Include="css\tuxing.css" />
+    <Content Include="css\version.css" />
+    <Content Include="image\chicang_img.png" />
+    <Content Include="image\dan.png" />
+    <Content Include="image\dan_on.png" />
+    <Content Include="image\foot.png" />
+    <Content Include="image\gonglue_01.png" />
+    <Content Include="image\gonglue_02.png" />
+    <Content Include="image\gonglue_bg.jpg" />
+    <Content Include="image\gonglue_head.png" />
+    <Content Include="image\g_icon.png" />
+    <Content Include="image\head_img.png" />
+    <Content Include="image\head_no1.png" />
+    <Content Include="image\jiaoyi_bg.jpg" />
+    <Content Include="image\jiaoyi_icon.png" />
+    <Content Include="image\jiaoyi_menu.png" />
+    <Content Include="image\jt.png" />
+    <Content Include="image\rili_icon.png" />
+    <Content Include="image\tx_icon.png" />
+    <Content Include="image\v_01.jpg" />
+    <Content Include="image\v_02.jpg" />
+    <Content Include="image\v_03.jpg" />
+    <Content Include="image\v_04.jpg" />
+    <Content Include="image\v_05.jpg" />
+    <Content Include="image\v_06.jpg" />
+    <Content Include="image\v_07.jpg" />
+    <Content Include="image\y_icon.png" />
+    <Content Include="jiaoyi_login.html" />
+    <Content Include="js\enow\chart\bar.js" />
+    <Content Include="js\enow\chart\line.js" />
+    <Content Include="js\enow\chart\macarons.js" />
+    <Content Include="js\enow\chart\pie.js" />
+    <Content Include="js\enow\circle-progress.js" />
+    <Content Include="js\enow\echarts-all.js" />
+    <Content Include="js\enow\echarts.js" />
+    <Content Include="js\enow\huafei.js" />
+    <Content Include="js\enow\jiangping.js" />
+    <Content Include="js\enow\jiaoyi.js" />
+    <Content Include="js\enow\jiaoyi_login.js" />
+    <Content Include="js\enow\jquery-asPieProgress.min.js" />
+    <Content Include="js\enow\rili\mui.dtpicker.js" />
+    <Content Include="js\enow\rili\mui.listpicker.js" />
+    <Content Include="js\enow\rili\mui.min.js" />
+    <Content Include="js\enow\shouji.js" />
+    <Content Include="js\enow\tuxing.js" />
+    <Content Include="js\enow\user.js" />
+    <Content Include="js\enow\yyt.js" />
+    <Content Include="js\enow\zhfenxi.js" />
+    <Content Include="js\enow\exporting.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\jquery.fullPage.js" />
+    <Content Include="lib\iscroll-lite\iscroll-zoom.js" />
+    <Content Include="version.html" />
+    <Content Include="zhanghu.htm" />
+    <Content Include="zhfx.htm" />
+    <Content Include="xgzl.html" />
+    <Content Include="ghsj.html" />
+    <Content Include="fxpg.html" />
+    <Content Include="zhgl.html" />
+    <Content Include="wtfs.html" />
+    <Content Include="fxjs.html" />
+    <Content Include="zqcy.html" />
+    <Content Include="ktcy.html" />
+    <Content Include="czmm.html" />
+    <Content Include="lcsc.html" />
+    <Content Include="xykh.html" />
+    <Content Include="user3.html" />
+    <None Include="font\HELVETICANEUELTPRO-THEX.eot" />
+    <None Include="font\HELVETICANEUELTPRO-THEX.otf" />
+    <None Include="font\HELVETICANEUELTPRO-THEX.svg" />
+    <None Include="font\HELVETICANEUELTPRO-THEX.ttf" />
+    <None Include="font\HELVETICANEUELTPRO-THEX.woff" />
+    <None Include="image\Thumbs.db" />
+    <None Include="img\index\Thumbs.db" />
+    <None Include="img\jy\jy-index\Thumbs.db" />
+    <None Include="img\Thumbs.db" />
+    <None Include="img\wd\wd-sz\wd-sz.png.d" />
+    <Content Include="user2.html" />
+    <Content Include="user1.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10179</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

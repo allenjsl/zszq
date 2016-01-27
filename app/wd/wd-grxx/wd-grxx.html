@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>个人信息</title>
+    <link href="../../../css/base/base.css" rel="stylesheet" />
+    <link href="../../../css/wd/wd-grxx/wd-grxx.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wapper">
+        <div class="u-info bgfff">
+            <div class="ico u-item">
+                <i class="wd-png broker-ico"></i>
+            </div>
+            <div class="info u-item">
+                <div class="u-name j_username"></div>
+                <div class="u-fields">
+                    <i class="wd-png ico-item i-phone"></i>
+                    <span class="value j_phone"></span>
+                </div>
+                <div class="u-fields">
+                    <i class="wd-png ico-item i-address"></i>
+                    <span class="value j_addr"></span>
+                </div>
+            </div>
+        </div>
+        <div class="acc-info bgfff">
+            <div class="line ">
+                <span class="u-fields">普通账户</span>
+                <span class="val j_zjzh"></span>
+            </div>
+             <div class="line marginl">
+                <span class="u-fields" style="font-size:13px;">上海A股股东账号</span>
+                <span class="val j_shgd" style="color:#000;"></span>
+            </div>
+             <div class="line marginl  last">
+                 <span class="u-fields" style="font-size:13px;">深圳A股股东账号</span>
+                <span class="val j_szgd" style="color:#000;"></span>
+            </div>
+        </div>
+        <div class="acc-info bgfff">
+             <div class="line   last">
+                 <span class="u-fields">信用账户</span>
+                <span class="val gray j_xyzh" style="font-size:12px;">暂未开通</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../../lib/seajs/sea.js"></script>
+     <script>
+         seajs.use('/zsjy/js/wd/wd-grxx/wd-grxx');
+    </script>
+</html>

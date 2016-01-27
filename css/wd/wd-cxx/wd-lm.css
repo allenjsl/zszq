@@ -1,0 +1,9 @@
+﻿@charset 'utf-8';
+.wapper .line {
+height:40px;
+line-height:40px;
+font-size:14px;
+font-family:Arial;
+padding-left:10px;
+border:1px solid #d1d1d1;
+}

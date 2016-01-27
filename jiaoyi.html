@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>证券账户</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/jy.css" media="all"/>
+    
+    
+</head>
+
+<body id="wrapper">
+
+<div>
+<div class="jy_head">
+     <div class="jy_touxiang radius"><img src="image/head_no.png" class="touxiang"></div>
+     <p class="font18 xingming"></p>
+     <p class="tel_icon font14 shouji"></p>
+     <p class="add_icon font14 yingyebu"></p>
+</div>
+
+<div class="jy_box mt10">
+     <div class="putong">普通账户<span class="right_txt zijinzhanghao"></span></div>
+     <p style="padding-top:10px;">上海A股股东账号：<span id="shanghai"></span></p>
+     <p>深圳A股股东账号：<span id="shenzhen"></span></p>
+</div>
+
+<div class="jy_box mt10">
+     <div class="xinyong">信用账户<span class="right_txt xyzh">暂未开通</span></div>
+</div>
+</div>
+</body>
+<script src="lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/enow/jiaoyi');
+</script>
+</html>

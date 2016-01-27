@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>我要吐槽</title>
+    <link rel="stylesheet" type="text/css" href="css/basic.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/wytc.css" media="all" />
+    <style>#wrapper2{width:100%; position:relative;  top:0; bottom:0; z-index:1; overflow:auto;}</style>    
+</head>
+
+<body>
+    <div class="wytc_tab">
+        <div class="wytc_TabTitle">
+            <ul class="clearfix">
+                <li class="active" data-class="tab_biaoti"><a href="javascript:void(0);"><s class="icon01"></s>现在吐槽</a></li>
+                <li class="normal" data-class="tab_biaoti"><a href="javascript:void(0);"><s class="icon02"></s>我的吐槽</a></li>
+            </ul>
+        </div>
+        <div class="wytc_TabContent">
+            <div data-class="tab_neirong"  id="wrapper1">
+                <div class="fabiao_tc">
+                    <div class="fabiao_tc_box">
+                        <textarea id="tcCnt" placeholder="我们期待收到您的宝贵意见" maxlength="200"></textarea>
+                        <p>
+                            <span id="zishu">0</span>/200</p>
+                    </div>
+                    <div class="cent mt20">
+                        <input id="tijiao" type="button" class="submitBtn" value="提 交"></div>
+                    <div class="mt10 color_4 font13">
+                        客服电话：<span class="tel">400-102-2011</span></div>
+                </div>
+            </div>
+            <div class="none" data-class="tab_neirong">
+                <div class="my_tc" id="wrapper2">
+                    <ul id="tclist">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/enow/wytc');
+</script>
+</html>

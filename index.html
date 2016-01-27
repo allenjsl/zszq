@@ -1,0 +1,289 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>小鹿金融</title>
+	<link rel="stylesheet" type="text/css" href="css/base-min.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="all"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" media="all"/>-->
+    <style> #index-wrap{width:100%; position:absolute;  top:0; bottom:0; z-index:1; overflow:auto;}</style>
+</head>
+<body>
+<div id="index-wrap">
+<div>
+	<div id="J_header">
+        <div id="J_slider" class="swipe">
+            <div class="swipe-wrap">
+                <figure>
+                    <div class="wrap"><img class="image" src="img/banner-1.png"></div>
+                </figure>
+                <!--<figure>
+                    <div class="wrap"><img class="image" src="img/banner-1.png"></div>
+                </figure>
+                <figure>
+                    <div class="wrap"><img class="image" src="img/banner-1.png"></div>
+                </figure>-->
+            </div>
+	        <!--<nav class="nav">
+	            <ul id="J_position">
+	                <li class="on"></li>
+	                <li></li>
+	                <li></li>
+	            </ul>
+	        </nav>-->
+        </div>
+	</div>
+	<div id="J_main">
+		<div class="swipe-activity">
+			<div class="activity-mask"></div>
+			<div id="J_activity" class="activity-container">
+				<div class="activity-wrap">
+			    	<!--<div class="activity-rank">
+			        	<p class="activity-title">话费秒杀龙虎榜</p>
+			        	<div id="scroller">
+		        	        <ul class="tel-rank">
+		        	        </ul>
+			        	</div>
+			        </div>-->
+			        <div class="activity-rank wait_box ">
+                            <p>更多精彩 敬请期待</p>
+			        </div>
+			        <!--<div class="activity-rank activity-ms">
+			        	<p class="activity-title">话费秒杀<span id="J_countTime"></span>倒计时</p>
+						<div class="count-time">
+							<div class="count-cnt">
+								<p id="J_countArea"></p>
+							</div>
+						</div>
+						<div class="count-footer">
+							<p class="count-bnt">点我开抢</p>
+						</div>
+			        </div>-->
+			    </div>
+			</div>
+		</div>
+		<ul class="cell-list pos-right-hq">
+			<li class="cell-func cell-hq" id="hq">
+				<div class="cell-mask hq-mask"></div>
+				<div class="cell_box">
+				<div class="bg-box">
+					<div class="cell-bg bg-hq"></div>
+				</div>
+				<p class="cell-name">行情</p>
+				</div>
+			</li>
+		</ul>
+		<ul class="cell-list pos-right-jy">
+			<li class="cell-func cell-jy" id="jy">
+				<div class="cell-mask jy-mask"></div>
+				<div class="cell_box">
+				<div class="bg-box">
+					<div class="cell-bg bg-jy"></div>
+				</div>
+				<p class="cell-name">交易</p>
+				</div>
+			</li>
+		</ul>
+		<ul class="cell-list">
+			<li class="cell-func" id="wyzq">
+				<div class="cell-mask zq-mask"></div>
+				<div class="cell_box">
+				<div class="bg-box">
+					<div class="cell-bg bg-zq"></div>
+				</div>
+				<p class="cell-name">我要赚钱</p>
+				</div>
+			</li>
+			<li class="cell-func" id="wyjq">
+				<div class="cell-mask jq-mask"></div>
+				<div class="cell_box">
+				<div class="bg-box">
+					<div class="cell-bg bg-jq"></div>
+				</div>
+				<p class="cell-name">我要借钱</p>
+				</div>
+			</li>
+			<li class="cell-func wid_R" id="wykh" style="width: 33.4%;">
+				<div class="cell-mask kh-mask"></div>
+				<div class="cell_box">
+				 <div class="bg-box">
+					<div class="cell-bg bg-kh"></div>
+				 </div> 
+				<p class="cell-name kh-name">万<i class="kh-yj">2.5</i>开户</p>
+				</div>
+			</li>
+		</ul>
+		<ul class="cell-list cell_last">
+			<li class="cell-func" id="wsyyt">
+				<div class="cell-mask yyt-mask"></div>
+				<div class="cell_box">
+				<div class="bg-box">
+					<div class="cell-bg bg-yyt"></div>
+				</div>
+				<p class="cell-name">网上营业厅</p>
+				</div>
+			</li>
+			<li class="cell-func" id="wytc">
+				<div class="cell-mask tc-mask"></div>
+				<div class="cell_box">
+				<div class="bg-box">
+					<div class="cell-bg bg-tc"></div>
+				</div>
+				<p class="cell-name">我要吐槽</p>
+				</div>
+			</li>
+			<li class="cell-func wid_R" style="width: 33.4%;">
+				<div id="J_syl" class="syl-container">
+					<div class="syl-wrapper">
+						<div class="syl-slider xjlc">
+							<div class="cell-mask syl-mask"></div>
+							<div class="cell_box">
+							<div class="bg-box">
+								<div class="cell-bg bg-syl"></div>
+							</div>
+							<p class="cell-name">现金理财</p>
+							</div>
+						</div>
+						<div class="syl-slider bg-syl-val">
+						<div class="cell_box">
+							<p class="cell-name syl-name">7日年化收益率</p>
+							<p class="cell-syl" id="shouyi"><!--<iframe frameborder="0" src="http://zx.zszq.com/query-seven-income-app"></iframe>-->4.66%</p>
+						</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+<!--<canvas class="process">30%持仓</canvas>  -->
+<!--<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script>
+$(function(){
+	$('#index-wrap').fullpage();
+})
+</script>-->
+<script src="lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/enow/index');
+</script>
+</body>
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script>
+//var adaptUILayout = (function(){
+
+////根据校正appVersion或userAgent校正屏幕分辨率宽度值
+//var regulateScreen = (function(){
+//var cache = {};
+
+////默认尺寸
+//var defSize = {
+// width : window.screen.width,
+// height : window.screen.height
+//};
+
+//var ver = window.navigator.appVersion;
+
+//var _ = null;
+
+//var check = function(key){
+//return key.constructor == String ? ver.indexOf(key) > -1 : ver.test(key);
+//};
+
+//var add = function(name, key, size){
+//if(name && key)
+// cache[name] = {
+// key : key,
+// size : size
+//};
+//};
+
+//var del = function(name){
+//if(cache[name])
+//deletecache[name];
+//};
+
+//var cal = function(){
+//if(_ != null)
+//return_;
+
+//for(varnameincache){
+//if(check(cache[name].key)){
+// _ = cache[name].size;
+//break;
+//}
+//}
+
+//if(_ == null)
+// _ = defSize;
+
+//return_;
+//};
+
+//return{
+// add : add,
+// del : del,
+// cal : cal
+//};
+//})()
+
+////实现缩放
+//var adapt = function(uiWidth){
+//var
+//deviceWidth,
+//devicePixelRatio,
+//targetDensitydpi,
+////meta,
+//initialContent,
+//head,
+//viewport,
+//ua;
+
+// ua = navigator.userAgent.toLowerCase();
+////whether it is the iPhone or iPad
+// isiOS = ua.indexOf('ipad') > -1 || ua.indexOf('iphone') > -1;
+
+////获取设备信息,并矫正参数值
+// devicePixelRatio = window.devicePixelRatio;
+// deviceWidth = regulateScreen.cal().width;
+
+////获取最终dpi
+// targetDensitydpi = uiWidth / deviceWidth * devicePixelRatio * 160;
+
+////use viewport width attribute on the iPhone or iPad device
+////use viewport target-densitydpi attribute on the Android device
+// initialContent = isiOS
+//?'width='+ uiWidth +', user-scalable=no'
+//:'target-densitydpi=' + targetDensitydpi + ', width='+ uiWidth+', user-scalable=no';
+
+////add a new meta node of viewport in head node
+// head = document.getElementsByTagName('head');
+// viewport = document.createElement('meta');
+// viewport.name = 'viewport';
+// viewport.content = initialContent;
+// head.length > 0 && head[head.length - 1].appendChild(viewport);
+//};
+//return{
+// regulateScreen : regulateScreen,
+// adapt : adapt
+//};
+//})();
+//$(function () {
+//adaptUILayout.adapt(640);
+//	var _height = ($(window).height() - 112) / 4;
+//	$('#J_main').css('height',window.screen.height)
+//	$('.cell-func').css('height', _height);
+//	$('.swipe-activity').css('height', _height * 2);
+//	$('.pos-right-jy').css('top', _height+113);
+//	$('.pos-right-hq').css('top',113)
+//})
+</script>
+</html>

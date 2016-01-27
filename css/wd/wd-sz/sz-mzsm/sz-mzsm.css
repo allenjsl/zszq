@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+.wapper {
+padding:15px 15px 20px 15px;text-indent: 2em;position:absolute;width:100%;
+font-size:14px;overflow-y: scroll;
+}
+    .wapper .line {
+    text-indent:2em;margin-top:4px;
+    }
+#j_call {
+text-decoration:underline;
+color:blue;
+font-style:oblique;
+}

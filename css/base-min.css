@@ -1,0 +1,100 @@
+﻿@charset "utf-8";body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}body{-webkit-text-size-adjust:none;-webkit-touch-callout:none;-webkit-user-select:none;}body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial,\5b8b\4f53,sans-serif;}h1,h2,h3,h4,h5,h6{font-size:100%;}address,cite,dfn,em,b,caption,code,strong,th,var,em,i{font-style:normal;font-weight:normal;}code,kbd,pre,samp{font-family:courier new,courier,monospace;}small{font-size:12px;}ul,ol,li,dl,dh{list-style:none;}a{color:#f60;text-decoration:none;}a:hover{text-decoration:underline;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}a:hover,a:active,input,:focus{outline:none;}legend{color:#000;}fieldset,img{border:0;-ms-interpolation-mode:bicubic;}button,input,select,textarea{font-size:100%;}table{border-collapse:collapse;border-spacing:0;word-break:break-all;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{display:block;margin:0;padding:0;}mark{background:#ff0;}.mask{background-color:#000;opacity:0.3;filter:alpha(opacity=30);}::selection{background:#8DB040;color:#fff;}::-moz-selection{background:#8DB040;color:#fff;}::-webkit-selection{background:#8DB040;color:#fff;}.hidden{display:none;}.invisible{visibility:hidden;}.clear:after{content:'\20';display:block;height:0;clear:both;}.clear{*zoom:1;}.inlineBlock{display:inline-block;*display:inline;*zoom:1;}*,.bdbox{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}.bkw{word-break:break-all;word-wrap:break-word;overflow:hidden;}.ellip{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}::-webkit-scrollbar{width:1px;height:1px;display:none;}::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{border-radius:999px;border:5px solid transparent;}::-webkit-scrollbar-track{box-shadow:1px 1px 5px rgba(0,0,0,.2) inset;}::-webkit-scrollbar-thumb{min-height:20px;background-clip:content-box;box-shadow:0 0 0 5px rgba(0,0,0,.2) inset;}::-webkit-scrollbar-corner{background:transparent;}
+
+/*--------------------  以上为各个项目公用BASE内容，下面区域为某个项目公用样式 ------------*/
+div, textarea, input, p, span, i, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6 {font-family: "Microsoft YaHei", 微软雅黑} 
+/* html{-webkit-text-size-adjust:none;} */
+/* 页面底部按钮 start */
+/* body{ background-color: #e8e8e8;} */
+.footer {padding-bottom: 10px;}
+.footer .footBtn {
+	height: 42px;
+	width: 41%;
+	display: inline-block;
+	border: 1px solid #f69c31; 
+	border-radius: 3px;
+	background-color: #f69c31;
+	line-height: 42px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+.footBtn.btnLeft {
+	margin: 0 6px 0 18px;
+}
+.footBtn.btnRght {
+	margin: 0 18px 0 6px;
+}
+.footBtn.snglBtn {
+	width: 93%;
+	margin: 0 11px 0 11px;
+}
+/* 页面底部按钮 end */
+
+/* alert插件 CSS start */
+#alertMask {
+	width: 100%;
+	height: 100%;
+	background-color: #7f7f7f;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.2;
+}
+.clear:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+#alertMain {
+	background-color: #fff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin: auto;
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	z-index: 999;
+	/* padding: 0 10px; */
+}
+#alertTitle {
+	font-size: 12px;
+	line-height: 12px;
+	color: #999;
+	border-bottom: 1px solid #c8c7cc;
+	padding: 13px 0;
+}
+#alertCnt {
+	padding: 12px 11px; 
+	min-height: 60px;
+}
+#alertPara {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+}
+#footer {
+	border-top: 1px solid #c8c7cc;
+}
+#footer .btn {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	width: 49%;
+	text-align: center;
+}
+#footer .sglBtn {
+	width: 100%;
+}
+#cnclBtnA {
+	border-right: 1px solid #c8c7cc;
+}
+/* alert插件 CSS end */
+
+/* 通用的字体颜色设置 start */
+.warnTips {
+	color: #ff0000;
+}
+/* 通用的字体颜色设置 end */

@@ -1,0 +1,241 @@
+﻿@charset 'utf-8';
+body {
+    overflow:hidden;
+}
+.wapper {
+position:relative;overflow:hidden;
+}
+.jy-chicang {
+background:url('/zsjy/img/jy/jy-chicang/jy-chicang.png') no-repeat;
+background-size:50px 40px;
+}
+    .wapper .holding {
+    padding:5px 15px 5px 15px;
+    border-bottom:1px solid #dfdfdf;
+    }
+.wapper .head-title {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 15px;
+    position: relative;
+}
+.move-item .info {
+width:100%;border:1px solid #dfdfdf;
+}
+.info .i-item {
+    font-size:0;white-space:nowrap;
+}
+.i-item .s-item {
+display:inline-block;height:47px;border-right:1px solid #dfdfdf;
+border-bottom:1px solid #dfdfdf;vertical-align:top;
+}
+.i-item .no-right {
+border-right:none !important;
+}
+.i-item .no-bottom {
+border-bottom:none !important;
+}
+.s-item div {
+    height:23px;line-height:23px;text-align:center;
+}
+.s-item .fields {
+font-size:14px;color:#858585;
+}
+.s-item .value {
+font-size:14px;color:#000;font-family: Arial;
+}
+.s-item .profit {
+color:#fd362f;
+}
+.s-item .loss {
+color:#4ab325;
+}
+.i-item .i-one {
+    width:30%;
+}
+.i-item .i-two {
+     width:40%;
+}
+.i-item .i-three {
+     width:30%;
+}
+.holding .move-item {
+    width:100%;margin:0 auto;overflow:hidden;
+}
+.slide-item .currency {font-size:14px;
+height:22px;text-align: left;
+}
+.currency .i-currency {
+display:inline-block;width:17px;height:11px;position:relative;top:1px;
+}
+.currency .i-china {
+    background-position:-4px -4px;
+}
+.currency .i-usa {
+    background-position:-28px -4px;
+}
+.currency .i-hk {
+    background-position:-4px -20px;
+}
+.move-item .slide {
+    width: 878px;
+    overflow: hidden;
+    height: 118px;
+    white-space: nowrap;
+    position:relative;
+    left:0;
+}
+figure .slide-item {
+    display:inline-block;height: 135px;width:100%;
+}
+.move-item .slide-ico {
+height:17px;line-height:17px;text-align:center;
+}
+.slide-ico span {
+display:inline-block;width:5px;height:5px;border:1px solid #dfdfdf;border-radius:5px;
+}
+.slide-ico .select {
+    border:none;background:#40c2ff;
+}
+.wapper .b-line {
+    width:100%;height:1px;
+background:#dfdfdf;
+}
+.head-title span {
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    position: absolute;
+}
+
+.head-title .title-one {
+}
+
+.head-title .title-two {
+    left: 27%;
+}
+
+.head-title .title-three {
+    left: 49%;
+}
+
+.head-title .title-four {
+    left: 75%;
+}
+
+.wapper .list-item {
+   font-size:14px; font-family:Arial;
+}
+
+.list-item .list {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+    /*margin-left: 15px;*/
+}
+
+.list-item .last {
+    border-bottom: none !important;
+}
+
+.list .item {
+    position: absolute;
+    height: 44px;
+    line-height: 28px;
+}
+
+.list .item-one {
+    left:3%;
+}
+
+.item-one .time {
+    /*color: #969696;*/
+}
+
+.item-one .name {
+}
+
+.item p {
+    height: 16px;
+}
+
+.list .item-two {
+    left: 27%;
+}
+
+.list .item-three {
+    left: 49%;width: 53px;
+text-align: right;
+}
+
+.list .item-four {
+    left: 75%;width: 62px;
+text-align: right;
+}
+
+.list-item .prolit {
+color:#fd362f;
+}
+.list-item .loss {
+color:#4ab325;
+}
+.o-type {
+    
+}
+.o-type span{
+    display:inline-block;
+    width:32%;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+}
+.refreshbtn {
+    position:fixed;width:50px;height:50px;right:0;bottom:7px; font-size:15px;z-index:99999;background:url('/zsjy/img/jy/jy-chicang/refresh.png') no-repeat; background-size:35px 35px;
+}
+.operate {
+    white-space:nowrap;
+    font-size:0;
+    background:#f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+    .operate .o-item {
+    display:inline-block;
+    vertical-align:top;
+    width:33%;
+    height:44px;position:relative;
+    font-size:14px;color:#929292;
+    line-height:44px;text-align:center;
+    }
+.o-item .o-ico {
+    display:inline-block;
+    position:relative;
+width:21px;
+height:19px;
+background:url('/zsjy/img/jy/jy-chicang/chicang2.png') no-repeat;
+background-size:75px 20px;
+top:3px;
+}
+.o-item .o-item-item {
+display:inline-block; width:55px;
+}
+.o-item .o-buy {
+background-position:-52px 0px;
+}
+.o-item .o-sale {
+background-position:-28px 0px;
+}
+.o-item .o-hq {
+background-position:-4px 0px;
+}
+.o-item .o-word {
+    display:inline-block;
+}
+.o-item .r-line {
+    position:absolute;
+    width:1px;
+    height:20px;
+    background:#c7c7c7;
+    right:0;top:11px;
+}
+

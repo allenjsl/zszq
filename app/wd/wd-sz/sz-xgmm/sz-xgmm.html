@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>修改交易密码</title>
+    <link href="../../../../css/base/base.css" rel="stylesheet" />
+    <link href="../../../../css/wd/wd-sz/sz-xgmm/sz-xgmm.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wapper">
+        <div class="h-nav bgfff  hidden">
+            <div class="item   j_pwdtype">
+                <span class="desc select" data-type="2">交易密码</span>
+                <i class="b-right"></i>
+            </div>
+            <!--<div class="item j_pwdtype">
+                <span class="desc" data-type="0">通讯密码</span>
+            </div>-->
+            <!--<div class="item j_pwdtype">
+                <span class="desc" data-type="1">资金密码</span>
+            </div>-->
+        </div>
+        <div class="info bgfff">
+            <div class="line ">
+                <span class="i-pwd">输入原交易密码:</span>
+                <span class="i-input"><input class="i-val j_pwd"  type="password" maxlength="6" /></span>
+            </div>
+            <div class="line ">
+                <span class="i-pwd">输入新交易密码:</span>
+                <span class="i-input"><input class="i-val j_newpwd"  type="password" maxlength="6" /></span>
+            </div>
+            <div class="line last">
+                <span class="i-pwd">确认新交易密码:</span>
+                <span class="i-input"><input class="i-val j_newpwdangin"  type="password" maxlength="6" /></span>
+            </div>
+        </div>
+        <div class="btn j_submit">确认修改</div>
+    </div>
+</body>
+<script src="../../../../lib/seajs/sea.js"></script>
+    <script>
+        seajs.use('/zsjy/js/wd/wd-sz/sz-xgmm/sz-xgmm');
+    </script>
+</html>

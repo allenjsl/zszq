@@ -1,0 +1,83 @@
+﻿@charset 'utf-8';
+.wapper .head-title {
+    height: 40px;
+    line-height: 40px;
+    background: #f3f7f9;
+    margin-left: 15px;
+    position: relative;
+}
+
+.head-title span {
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #535353;
+    position: absolute;
+}
+
+.head-title .title-one {
+    left: 3px;
+}
+
+.head-title .title-two {
+    left: 40%;
+}
+
+.head-title .title-three {
+    left: 73%;
+}
+
+
+.wapper .list-item {
+    overflow-y:scroll;font-size:14px;font-family:'Arial';
+}
+
+.list-item .list {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.list-item .last {
+    border-bottom: none !important;
+}
+
+.list .item {
+    position: absolute;
+    height: 41px;
+    line-height: 28px;
+}
+
+.list .item-one {
+    left: 3px;
+}
+
+.item-one .time {
+    color: #969696;
+}
+
+.item-one .name {
+}
+
+.item p {
+    height: 16px;
+}
+
+.list .item-two {
+    left: 40%;
+    line-height: 41px;
+}
+
+.list .item-three {
+    left: 73%;line-height:41px;
+}
+
+.item .t-r {
+text-align:right;
+}
+.list .item-five {
+    color: #4cc6ff;
+    left: 88%;
+    line-height: 41px;
+}

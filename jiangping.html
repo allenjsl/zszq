@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-touch-fullscreen" content="YES">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>我的奖品</title>
+	<link rel="stylesheet" type="text/css" href="css/basic.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/jiangping.css" media="all"/>
+        
+</head>
+
+<body>
+
+
+<div class="jiangping_tab"  id="n4Tab">
+ 
+             <div class="jiangping_TabTitle">
+                   <ul class="clearfix">
+                      <li data-class="tab_biaoti" class="active"><a href="javascript:void(0);"><s class="icon01"></s>秒杀记录</a></li>
+                      <li data-class="tab_biaoti" class="normal"><a href="javascript:void(0);"><s class="icon02"></s>兑奖记录</a></li>
+                   </ul>
+                </div>
+    
+             <div class="jiangping_TabContent">
+                
+                    <div data-class="tab_neirong">
+                       <div class="jp_list" id="wrapper1">
+                           <ul id="miaosha">
+                           </ul>
+                       </div>
+                    </div>
+
+                    <div data-class="tab_neirong" class="none">
+                       <div class="jp_list" id="wrapper2">
+                           <ul id="duijiang">
+                           </ul>
+                       </div>
+                    </div>
+                    
+                    
+             </div>
+             
+</div>
+
+</body>
+<script src="lib/seajs/sea.js"></script>
+<script>
+    seajs.use('/zsjy/js/enow/jiangping');
+</script>
+</html>

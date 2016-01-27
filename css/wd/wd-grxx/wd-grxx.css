@@ -1,0 +1,58 @@
+﻿@charset 'utf-8';
+.wapper .u-info{
+    border-bottom: 1px solid #dfdfdf;
+}
+.wd-png {
+    background: url('/zsjy/img/wd/wd.png') no-repeat;
+    background-size: 135px 70px;
+}
+.u-info .ico {
+float:left;width:98px;height:80px;padding-top:10px;
+}
+.u-info .info {
+margin-left:98px;height:80px;padding:10px 0;
+}
+.ico .broker-ico {
+display:block;margin:0 auto;
+width:60px; height:60px;
+background-position:-71px -3px;
+}
+.info .u-name {
+font-size:17px;font-weight:bold;
+}
+.u-fields .ico-item{
+    display:inline-block;width:12px;height:12px;
+}
+.u-fields .i-phone{
+   background-position:-53px -23px;
+}
+.u-fields .i-address{
+   background-position:-32px -45px;
+}
+.u-fields .value {
+    position:relative;top:-1px;font-family:'Arial';
+}
+.wapper .acc-info {
+margin-top:15px;border-top :1px solid #dfdfdf;border-bottom :1px solid #dfdfdf;
+}
+.acc-info .line {
+    height:44px;line-height:44px;
+    border-bottom :1px solid #dfdfdf;
+    position:relative;font-size:17px;font-family:'Arial';
+}
+.acc-info .last {
+     border-bottom :none !important;
+}
+.acc-info .marginl {
+margin-left:10px;
+}
+.line .u-fields {
+    display:inline-block;padding-left:15px;
+height:44px;line-height:44px;
+}
+.line .val {
+    color:#51b0ff;position:absolute;right:16px;font-size:13px;
+}
+.line .gray {
+    color:#434343 !important;
+}

@@ -1,0 +1,199 @@
+*{margin:0; padding:0;}
+body {
+	-webkit-text-size-adjust: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	color:#444;
+}
+body,button,input,select,textarea {
+	font: 400 12px/1.5 "Microsoft YaHei","Hiragino Sans GB",hei,Arial,"Lucida Grande",Verdana;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+ul,ol,li,dl {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a: hover {
+	text-decoration: underline;
+}
+a: hover,a: active,input,: focus {
+	outline: none;
+}
+button,input,select,textarea {
+	font-size: 100%;
+}
+button,input[type="button"],input[type="reset"],input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+	*overflow: visible;
+	border:none 0;
+}
+input[type="checkbox"],input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+input[type="search"] {
+	-webkit-appearance: textfield;
+}
+input[type="search"]: : -webkit-search-decoration {
+	-webkit-appearance: none
+}
+button: : -moz-focus-inner,input: : -moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input[type="button"],input[type="submit"]{-webkit-appearance:none;}
+
+:focus,input{outline:none;}
+
+@font-face {
+ font-family: 'Helvetica Neue LT Pro';
+ src: url('../font/HELVETICANEUELTPRO-THEX.eot');
+ src: local('Helvetica Neue LT Pro Regular'),
+      local('Helvetica Neue LT Pro'),
+      url('../font/HELVETICANEUELTPRO-THEX.woff') format('woff'),
+      url('../font/HELVETICANEUELTPRO-THEX.ttf') format('truetype'),
+      url('../font/HELVETICANEUELTPRO-THEX.svg#fontName') format('svg');
+      font-weight: normal;
+      font-style: normal;
+} 
+
+
+
+img{ border:0 none; height:auto;}
+em, b, i,s{font-style: normal;font-weight: 400;}
+.clear{clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;}
+.clearfix:before,.clearfix:after{content:'.'; display:block; overflow:hidden; visibility:hidden; font-size:0; line-height:0; width:0; height:0;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+
+.box,textarea,input{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+.radius{-webkit-border-radius:50%; -moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;}
+.radiu4{-webkit-border-radius:4px; -moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px;}
+
+.padd15{ padding:15px;}
+
+.cent{ text-align:center;}
+.floatL{ float:left;}
+.floatR{ float:right;}
+.font12{ font-size:12px;}
+.font13{ font-size:13px;}
+.font14{ font-size:14px;}
+.font15{ font-size:15px;}
+.font16{ font-size:16px;}
+.font18{ font-size:18px;}
+.font22{ font-size:22px;}
+
+.mt10{ margin-top:10px;}
+.mt20{ margin-top:20px;}
+.fontred{ color:#e55126;}
+.color_4{ color:#444;}
+.color_82{ color:#828282;}
+
+.submitBtn,a.submitBtn {
+	height: 36px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #e55126;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	-ms-border-radius: 18px;
+	border-radius: 18px;
+	text-align: center;
+	width:90%;
+} 
+a.submitBtn{ line-height:36px; display:inline-block;}
+
+.R_jiantou:after{border-top:#959595 solid 1px; border-right:#959595 solid 1px; content:""; width:8px; height:8px; position:absolute; right:15px; top:50%;margin-top:-4px; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); transform:rotate(45deg);}
+
+.blue_txt{ color:#00b7ee; text-decoration:underline;}
+
+/* alert插件 CSS start */
+#alertMask {
+	width: 100%;
+	height: 100%;
+	background-color: #7f7f7f;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.2;
+}
+.clear:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+#alertMain {
+	background-color: #fff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin: auto;
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	z-index: 999;
+	/* padding: 0 10px; */
+}
+#alertTitle {
+	font-size: 12px;
+	line-height: 12px;
+	color: #999;
+	border-bottom: 1px solid #c8c7cc;
+	padding: 13px 0;
+}
+#alertCnt {
+	padding: 12px 11px; 
+	min-height: 60px;
+}
+#alertPara {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+}
+#footer {
+	border-top: 1px solid #c8c7cc;
+}
+#footer .btn {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	width: 49%;
+	text-align: center;
+}
+#footer .sglBtn {
+	width: 100%;
+}
+#cnclBtnA {
+	border-right: 1px solid #c8c7cc;
+}
+/* alert插件 CSS end */
+
+ #wrapper{width:100%; position:absolute;  top:0; bottom:0; z-index:1; overflow:auto;}
+ /*下拉刷新和上啦刷新*/
+.downrefresh {
+text-align:center;color:#ccc;font-size:12px;
+}
+.uprefresh {
+text-align:center;color:#ccc;font-size:12px;
+}
+ /*下拉刷新和上啦刷新*/
+
+.nodatalist {
+    position:relative ;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    color:#d1d1d1;
+    text-align:center;
+    padding-top:30px;
+    
+}

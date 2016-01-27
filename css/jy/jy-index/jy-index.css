@@ -1,0 +1,152 @@
+﻿@charset 'utf-8';
+.wapper {
+padding-bottom:20px;
+}
+.wapper .jy-module {
+    height: 167px;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 0 16px 0;
+}
+
+.jy-index-png {
+    background: url('/zsjy/img/jy/jy-index/jy-index.png') no-repeat;
+    background-size: 115px 180px;
+}
+.jy-module .module-line {
+    font-size:0px;white-space:nowrap;
+}
+.module-line .module-item {
+    width: 32.5%;
+    height: 75px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.module-item .o-type {
+    font-size: 14px;
+    font-family: '微软雅黑';
+}
+
+.module-item i, .module-item span {
+    display: block;
+    margin: 0 auto;
+}
+
+    .module-item .ico-type {
+        width: 42px;
+        height: 42px;
+    }
+    /*买入*/
+    .module-item .ico-buy {
+        background-position: -3px -2px;
+    }
+    /*卖出*/
+    .module-item .ico-sale {
+        background-position: -3px -48px;
+    }
+    /*持仓*/
+    .module-item .ico-hold {
+        background-position: -3px -91px;
+    }
+    /*撤单*/
+    .module-item .ico-cancellation {
+        background-position: -3px -135px;
+    }
+    /*查询*/
+    .module-item .ico-search {
+        background-position: -48px -3px;
+    }
+    /*银证转账*/
+    .module-item .ico-bst {
+        background-position: -48px -47px;
+    }
+
+.wapper .business-module {
+    margin-top: 15px;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+}
+
+.business-module .business-item {
+    height: 45px;
+}
+.business-item .no-border-bottom {
+    border-bottom: none !important;
+}
+
+.business-item .ico-item {
+    float: left;
+    width: 45px;
+    height: 45px;
+    line-height: 55px;
+    text-align: center;
+    position:relative;
+}
+
+.ico-item .ico {
+    width: 24px;
+    height: 21px;
+    margin-top:12px;
+}
+.ico-item .new-info {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    border-radius: 10px;
+}
+.ico-item .i-have {
+    background:#ff4d4d;
+}
+/*融资融券*/
+.ico-item .rzrq {
+    background-position: -51px -92px;
+}
+/*现金通*/
+.ico-item .xjt {
+    background-position: -46px -114px;
+}
+/*打新股*/
+.ico-item .dxg {
+    background-position: -46px -137px;
+}
+/*好产品*/
+.ico-item .hcp {
+    background-position: -91px -4px;
+}
+/*个股期权*/
+.ico-item .ggqq {
+    background-position: -90px -25px;
+}
+
+.business-item .desc {
+    position: relative;
+    margin-left: 45px;
+    height: 45px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.desc .module-name {
+    font-family: '微软雅黑';
+    font-size: 17px;
+    color: #434343;
+    margin-top:10px;
+}
+
+.desc .module-desc {
+    position: absolute;
+    right: 31px;
+    font-size: 12px;
+    color: #969696;
+    top:12px;
+}
+
+.desc .right-ico {
+    position: absolute;
+    right: 15px;
+    top: 16px;
+    height: 14px;
+    width: 9px;
+}

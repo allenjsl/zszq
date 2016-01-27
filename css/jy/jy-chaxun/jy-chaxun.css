@@ -1,0 +1,26 @@
+﻿@charset 'utf-8';
+.wapper .list {
+border-bottom:1px solid #dfdfdf;
+border-top:1px solid #dfdfdf;
+margin-top:20px;
+}
+.list .item {
+    position:relative;padding-left:15px;
+    border-bottom:1px solid #dfdfdf;
+}
+.list .last {
+     border-bottom:none !important;
+}
+.item .desc {
+display:inline-block;
+height:41px;line-height:41px;font-size:16px;font-family:'微软雅黑';
+}
+.item .ico {
+    position:absolute;
+    width:11px;
+    height:16px;
+    background:url('/zsjy/img/allowright.png') no-repeat;
+   background-size:8px 14px;
+    right:15px;top:13px;
+} 
+

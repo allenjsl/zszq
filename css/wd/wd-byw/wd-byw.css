@@ -1,0 +1,50 @@
+﻿@charset 'utf-8';
+.wapper {
+padding-top:15px;
+}
+.wd-byw {
+background:url('/zsjy/img/wd/wd-byw/wdyw.png') no-repeat;
+background-size:60px 85px;
+}
+.wapper .list {
+    border-top: 1px solid #dfdfdf;
+     border-bottom: 1px solid #dfdfdf;
+}
+.list .line {
+    margin-left:9px;border-bottom: 1px solid #dfdfdf;
+}
+.list .last {
+   border-bottom: none !important;
+}
+.line .l-left {
+float:left;width:38px;height:44px;position:relative;
+}
+.l-left .ico {
+    position:absolute;width:23px;height:23px;left:7px;top:12px;
+}
+.l-left .wskh {
+background-position:-3px -3px;
+}
+.l-left .xjt {
+background-position:-3px -27px;
+}
+.l-left .rxt {
+background-position:-3px -57px;
+}
+.line .l-right {
+margin-left:38px;height:44px;padding:10px 0;position:relative;line-height: 22px;
+}
+.l-right .module {
+font-size:14px;font-family:'微软雅黑';line-height:12px;
+}
+.l-right .desc {
+font-size:12px;font-family:'微软雅黑';color:#737373;
+}
+.l-right .r-ico {
+position:absolute;width:10px; height:15px;background-position:-34px -32px;top:15px;right:15px;
+}
+.l-right .word {
+    position: absolute;
+right: 28px;
+top: 11px;color: #737373;
+}
